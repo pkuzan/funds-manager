@@ -1,0 +1,1912 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 warn package.json funds-manager-react-web@0.0.0 No repository field.
+5 warn package.json funds-manager-react-web@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/pkuzan/dev/sandbox/gt-cloud/funds-manager/funds-manager-angular-web',
+7 verbose install   [ '@awm-moneta/moneta-bootstrap',
+7 verbose install     'classnames',
+7 verbose install     'core-js',
+7 verbose install     'js-cookie',
+7 verbose install     'moment',
+7 verbose install     'react',
+7 verbose install     'react-autobind',
+7 verbose install     'react-bootstrap-typeahead',
+7 verbose install     'react-dom',
+7 verbose install     'react-router',
+7 verbose install     'react-router-dom',
+7 verbose install     'reactstrap',
+7 verbose install     'rxjs',
+7 verbose install     'validator',
+7 verbose install     'whatwg-fetch',
+7 verbose install     '@babel/core',
+7 verbose install     '@babel/preset-env',
+7 verbose install     '@babel/preset-react',
+7 verbose install     '@babel/register',
+7 verbose install     'babel-loader',
+7 verbose install     'copy-webpack-plugin',
+7 verbose install     'css-loader',
+7 verbose install     'eslint',
+7 verbose install     'eslint-config-standard',
+7 verbose install     'eslint-config-standard-jsx',
+7 verbose install     'eslint-loader',
+7 verbose install     'eslint-plugin-import',
+7 verbose install     'eslint-plugin-node',
+7 verbose install     'eslint-plugin-promise',
+7 verbose install     'eslint-plugin-react',
+7 verbose install     'eslint-plugin-standard',
+7 verbose install     'file-loader',
+7 verbose install     'html-loader',
+7 verbose install     'html-webpack-plugin',
+7 verbose install     'htmlhint-loader',
+7 verbose install     'mini-css-extract-plugin',
+7 verbose install     'node-sass',
+7 verbose install     'optimize-css-assets-webpack-plugin',
+7 verbose install     'raw-loader',
+7 verbose install     'react-hot-loader',
+7 verbose install     'rimraf',
+7 verbose install     'sass-loader',
+7 verbose install     'style-loader',
+7 verbose install     'uglifyjs-webpack-plugin',
+7 verbose install     'webpack',
+7 verbose install     'webpack-cli',
+7 verbose install     'webpack-dev-server',
+7 verbose install     'webpack-merge' ] ]
+8 info preinstall funds-manager-react-web@0.0.0
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'core-js@2.5.5', null ]
+11 verbose cache add name=undefined spec="core-js@2.5.5" args=["core-js@2.5.5",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'core-js@2.5.5',
+12 verbose parsed url   path: 'core-js@2.5.5',
+12 verbose parsed url   href: 'core-js@2.5.5' }
+13 verbose cache add name="core-js" spec="2.5.5" args=["core-js","2.5.5"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '2.5.5',
+14 verbose parsed url   path: '2.5.5',
+14 verbose parsed url   href: '2.5.5' }
+15 verbose addNamed [ 'core-js', '2.5.5' ]
+16 verbose addNamed [ '2.5.5', '2.5.5' ]
+17 verbose cache add [ 'js-cookie@2.2.0', null ]
+18 verbose cache add name=undefined spec="js-cookie@2.2.0" args=["js-cookie@2.2.0",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'js-cookie@2.2.0',
+19 verbose parsed url   path: 'js-cookie@2.2.0',
+19 verbose parsed url   href: 'js-cookie@2.2.0' }
+20 verbose cache add name="js-cookie" spec="2.2.0" args=["js-cookie","2.2.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '2.2.0',
+21 verbose parsed url   path: '2.2.0',
+21 verbose parsed url   href: '2.2.0' }
+22 verbose addNamed [ 'js-cookie', '2.2.0' ]
+23 verbose addNamed [ '2.2.0', '2.2.0' ]
+24 silly lockFile 2f218ac6-core-js-2-5-5 core-js@2.5.5
+25 verbose lock core-js@2.5.5 /Users/pkuzan/.npm/2f218ac6-core-js-2-5-5.lock
+26 verbose cache add [ 'react@16.3.2', null ]
+27 verbose cache add name=undefined spec="react@16.3.2" args=["react@16.3.2",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'react@16.3.2',
+28 verbose parsed url   path: 'react@16.3.2',
+28 verbose parsed url   href: 'react@16.3.2' }
+29 verbose cache add name="react" spec="16.3.2" args=["react","16.3.2"]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '16.3.2',
+30 verbose parsed url   path: '16.3.2',
+30 verbose parsed url   href: '16.3.2' }
+31 verbose addNamed [ 'react', '16.3.2' ]
+32 verbose addNamed [ '16.3.2', '16.3.2' ]
+33 silly lockFile 717768ba-react-16-3-2 react@16.3.2
+34 verbose lock react@16.3.2 /Users/pkuzan/.npm/717768ba-react-16-3-2.lock
+35 verbose cache add [ 'moment@2.22.1', null ]
+36 verbose cache add name=undefined spec="moment@2.22.1" args=["moment@2.22.1",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'moment@2.22.1',
+37 verbose parsed url   path: 'moment@2.22.1',
+37 verbose parsed url   href: 'moment@2.22.1' }
+38 verbose cache add name="moment" spec="2.22.1" args=["moment","2.22.1"]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: '2.22.1',
+39 verbose parsed url   path: '2.22.1',
+39 verbose parsed url   href: '2.22.1' }
+40 verbose addNamed [ 'moment', '2.22.1' ]
+41 verbose addNamed [ '2.22.1', '2.22.1' ]
+42 silly lockFile 7c9ce5d3-moment-2-22-1 moment@2.22.1
+43 verbose lock moment@2.22.1 /Users/pkuzan/.npm/7c9ce5d3-moment-2-22-1.lock
+44 verbose cache add [ 'react-autobind@1.0.6', null ]
+45 verbose cache add name=undefined spec="react-autobind@1.0.6" args=["react-autobind@1.0.6",null]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: 'react-autobind@1.0.6',
+46 verbose parsed url   path: 'react-autobind@1.0.6',
+46 verbose parsed url   href: 'react-autobind@1.0.6' }
+47 verbose cache add name="react-autobind" spec="1.0.6" args=["react-autobind","1.0.6"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: '1.0.6',
+48 verbose parsed url   path: '1.0.6',
+48 verbose parsed url   href: '1.0.6' }
+49 verbose addNamed [ 'react-autobind', '1.0.6' ]
+50 verbose addNamed [ '1.0.6', '1.0.6' ]
+51 silly lockFile 895ba7c8-react-autobind-1-0-6 react-autobind@1.0.6
+52 verbose lock react-autobind@1.0.6 /Users/pkuzan/.npm/895ba7c8-react-autobind-1-0-6.lock
+53 silly lockFile 8539d3ea-js-cookie-2-2-0 js-cookie@2.2.0
+54 verbose lock js-cookie@2.2.0 /Users/pkuzan/.npm/8539d3ea-js-cookie-2-2-0.lock
+55 verbose cache add [ 'react-bootstrap-typeahead@3.0.3', null ]
+56 verbose cache add name=undefined spec="react-bootstrap-typeahead@3.0.3" args=["react-bootstrap-typeahead@3.0.3",null]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: 'react-bootstrap-typeahead@3.0.3',
+57 verbose parsed url   path: 'react-bootstrap-typeahead@3.0.3',
+57 verbose parsed url   href: 'react-bootstrap-typeahead@3.0.3' }
+58 verbose cache add name="react-bootstrap-typeahead" spec="3.0.3" args=["react-bootstrap-typeahead","3.0.3"]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: '3.0.3',
+59 verbose parsed url   path: '3.0.3',
+59 verbose parsed url   href: '3.0.3' }
+60 verbose addNamed [ 'react-bootstrap-typeahead', '3.0.3' ]
+61 verbose addNamed [ '3.0.3', '3.0.3' ]
+62 silly lockFile 2b1bdbfe-react-bootstrap-typeahead-3-0-3 react-bootstrap-typeahead@3.0.3
+63 verbose lock react-bootstrap-typeahead@3.0.3 /Users/pkuzan/.npm/2b1bdbfe-react-bootstrap-typeahead-3-0-3.lock
+64 verbose cache add [ 'react-dom@16.3.2', null ]
+65 verbose cache add name=undefined spec="react-dom@16.3.2" args=["react-dom@16.3.2",null]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: 'react-dom@16.3.2',
+66 verbose parsed url   path: 'react-dom@16.3.2',
+66 verbose parsed url   href: 'react-dom@16.3.2' }
+67 verbose cache add name="react-dom" spec="16.3.2" args=["react-dom","16.3.2"]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: '16.3.2',
+68 verbose parsed url   path: '16.3.2',
+68 verbose parsed url   href: '16.3.2' }
+69 verbose addNamed [ 'react-dom', '16.3.2' ]
+70 verbose addNamed [ '16.3.2', '16.3.2' ]
+71 silly lockFile d27f1c31-react-dom-16-3-2 react-dom@16.3.2
+72 verbose lock react-dom@16.3.2 /Users/pkuzan/.npm/d27f1c31-react-dom-16-3-2.lock
+73 verbose cache add [ 'react-router@4.2.0', null ]
+74 verbose cache add name=undefined spec="react-router@4.2.0" args=["react-router@4.2.0",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'react-router@4.2.0',
+75 verbose parsed url   path: 'react-router@4.2.0',
+75 verbose parsed url   href: 'react-router@4.2.0' }
+76 verbose cache add name="react-router" spec="4.2.0" args=["react-router","4.2.0"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '4.2.0',
+77 verbose parsed url   path: '4.2.0',
+77 verbose parsed url   href: '4.2.0' }
+78 verbose addNamed [ 'react-router', '4.2.0' ]
+79 verbose addNamed [ '4.2.0', '4.2.0' ]
+80 silly lockFile 5ced8220-react-router-4-2-0 react-router@4.2.0
+81 verbose lock react-router@4.2.0 /Users/pkuzan/.npm/5ced8220-react-router-4-2-0.lock
+82 verbose cache add [ 'react-router-dom@4.2.2', null ]
+83 verbose cache add name=undefined spec="react-router-dom@4.2.2" args=["react-router-dom@4.2.2",null]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: 'react-router-dom@4.2.2',
+84 verbose parsed url   path: 'react-router-dom@4.2.2',
+84 verbose parsed url   href: 'react-router-dom@4.2.2' }
+85 verbose cache add name="react-router-dom" spec="4.2.2" args=["react-router-dom","4.2.2"]
+86 verbose parsed url { protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: '4.2.2',
+86 verbose parsed url   path: '4.2.2',
+86 verbose parsed url   href: '4.2.2' }
+87 verbose addNamed [ 'react-router-dom', '4.2.2' ]
+88 verbose addNamed [ '4.2.2', '4.2.2' ]
+89 silly lockFile d32ce029-react-router-dom-4-2-2 react-router-dom@4.2.2
+90 verbose lock react-router-dom@4.2.2 /Users/pkuzan/.npm/d32ce029-react-router-dom-4-2-2.lock
+91 verbose cache add [ 'reactstrap@5.0.0', null ]
+92 verbose cache add name=undefined spec="reactstrap@5.0.0" args=["reactstrap@5.0.0",null]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: 'reactstrap@5.0.0',
+93 verbose parsed url   path: 'reactstrap@5.0.0',
+93 verbose parsed url   href: 'reactstrap@5.0.0' }
+94 verbose cache add name="reactstrap" spec="5.0.0" args=["reactstrap","5.0.0"]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: '5.0.0',
+95 verbose parsed url   path: '5.0.0',
+95 verbose parsed url   href: '5.0.0' }
+96 verbose addNamed [ 'reactstrap', '5.0.0' ]
+97 verbose addNamed [ '5.0.0', '5.0.0' ]
+98 silly lockFile f49c5df0-reactstrap-5-0-0 reactstrap@5.0.0
+99 verbose lock reactstrap@5.0.0 /Users/pkuzan/.npm/f49c5df0-reactstrap-5-0-0.lock
+100 verbose cache add [ 'rxjs@5.4.2', null ]
+101 verbose cache add name=undefined spec="rxjs@5.4.2" args=["rxjs@5.4.2",null]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: 'rxjs@5.4.2',
+102 verbose parsed url   path: 'rxjs@5.4.2',
+102 verbose parsed url   href: 'rxjs@5.4.2' }
+103 verbose cache add name="rxjs" spec="5.4.2" args=["rxjs","5.4.2"]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '5.4.2',
+104 verbose parsed url   path: '5.4.2',
+104 verbose parsed url   href: '5.4.2' }
+105 verbose addNamed [ 'rxjs', '5.4.2' ]
+106 verbose addNamed [ '5.4.2', '5.4.2' ]
+107 silly lockFile e183f57b-rxjs-5-4-2 rxjs@5.4.2
+108 verbose lock rxjs@5.4.2 /Users/pkuzan/.npm/e183f57b-rxjs-5-4-2.lock
+109 verbose cache add [ 'validator@9.4.1', null ]
+110 verbose cache add name=undefined spec="validator@9.4.1" args=["validator@9.4.1",null]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: 'validator@9.4.1',
+111 verbose parsed url   path: 'validator@9.4.1',
+111 verbose parsed url   href: 'validator@9.4.1' }
+112 verbose cache add name="validator" spec="9.4.1" args=["validator","9.4.1"]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '9.4.1',
+113 verbose parsed url   path: '9.4.1',
+113 verbose parsed url   href: '9.4.1' }
+114 verbose addNamed [ 'validator', '9.4.1' ]
+115 verbose addNamed [ '9.4.1', '9.4.1' ]
+116 silly lockFile c6d0df23-validator-9-4-1 validator@9.4.1
+117 verbose lock validator@9.4.1 /Users/pkuzan/.npm/c6d0df23-validator-9-4-1.lock
+118 verbose cache add [ 'whatwg-fetch@2.0.4', null ]
+119 verbose cache add name=undefined spec="whatwg-fetch@2.0.4" args=["whatwg-fetch@2.0.4",null]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: 'whatwg-fetch@2.0.4',
+120 verbose parsed url   path: 'whatwg-fetch@2.0.4',
+120 verbose parsed url   href: 'whatwg-fetch@2.0.4' }
+121 verbose cache add name="whatwg-fetch" spec="2.0.4" args=["whatwg-fetch","2.0.4"]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: '2.0.4',
+122 verbose parsed url   path: '2.0.4',
+122 verbose parsed url   href: '2.0.4' }
+123 verbose addNamed [ 'whatwg-fetch', '2.0.4' ]
+124 verbose addNamed [ '2.0.4', '2.0.4' ]
+125 silly lockFile 40acba6b-whatwg-fetch-2-0-4 whatwg-fetch@2.0.4
+126 verbose lock whatwg-fetch@2.0.4 /Users/pkuzan/.npm/40acba6b-whatwg-fetch-2-0-4.lock
+127 verbose cache add [ '@babel/core@7.0.0-rc2', null ]
+128 verbose cache add name=undefined spec="@babel/core@7.0.0-rc2" args=["@babel/core@7.0.0-rc2",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '@babel/core@7.0.0-rc2',
+129 verbose parsed url   path: '@babel/core@7.0.0-rc2',
+129 verbose parsed url   href: '@babel/core@7.0.0-rc2' }
+130 verbose cache add name="" spec="babel/core@7.0.0-rc2" args=["","babel/core@7.0.0-rc2"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: 'babel/core@7.0.0-rc2',
+131 verbose parsed url   path: 'babel/core@7.0.0-rc2',
+131 verbose parsed url   href: 'babel/core@7.0.0-rc2' }
+132 verbose cache add name="babel/core" spec="7.0.0-rc2" args=["babel/core","7.0.0-rc2"]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: '7.0.0-rc2',
+133 verbose parsed url   path: '7.0.0-rc2',
+133 verbose parsed url   href: '7.0.0-rc2' }
+134 verbose addNamed [ 'babel/core', '7.0.0-rc2' ]
+135 verbose addNamed [ '7.0.0-rc2', '7.0.0-rc2' ]
+136 silly lockFile 313a0bc0-babel-core-7-0-0-rc2 babel/core@7.0.0-rc2
+137 verbose lock babel/core@7.0.0-rc2 /Users/pkuzan/.npm/313a0bc0-babel-core-7-0-0-rc2.lock
+138 verbose cache add [ '@babel/preset-env@7.0.0-rc.2', null ]
+139 verbose cache add name=undefined spec="@babel/preset-env@7.0.0-rc.2" args=["@babel/preset-env@7.0.0-rc.2",null]
+140 verbose parsed url { protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: '@babel/preset-env@7.0.0-rc.2',
+140 verbose parsed url   path: '@babel/preset-env@7.0.0-rc.2',
+140 verbose parsed url   href: '@babel/preset-env@7.0.0-rc.2' }
+141 verbose cache add name="" spec="babel/preset-env@7.0.0-rc.2" args=["","babel/preset-env@7.0.0-rc.2"]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'babel/preset-env@7.0.0-rc.2',
+142 verbose parsed url   path: 'babel/preset-env@7.0.0-rc.2',
+142 verbose parsed url   href: 'babel/preset-env@7.0.0-rc.2' }
+143 verbose cache add name="babel/preset-env" spec="7.0.0-rc.2" args=["babel/preset-env","7.0.0-rc.2"]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: '7.0.0-rc.2',
+144 verbose parsed url   path: '7.0.0-rc.2',
+144 verbose parsed url   href: '7.0.0-rc.2' }
+145 verbose addNamed [ 'babel/preset-env', '7.0.0-rc.2' ]
+146 verbose addNamed [ '7.0.0-rc.2', '7.0.0-rc.2' ]
+147 silly lockFile 7f925f25-babel-preset-env-7-0-0-rc-2 babel/preset-env@7.0.0-rc.2
+148 verbose lock babel/preset-env@7.0.0-rc.2 /Users/pkuzan/.npm/7f925f25-babel-preset-env-7-0-0-rc-2.lock
+149 verbose cache add [ '@babel/preset-react@7.0.0-beta.3', null ]
+150 verbose cache add name=undefined spec="@babel/preset-react@7.0.0-beta.3" args=["@babel/preset-react@7.0.0-beta.3",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: '@babel/preset-react@7.0.0-beta.3',
+151 verbose parsed url   path: '@babel/preset-react@7.0.0-beta.3',
+151 verbose parsed url   href: '@babel/preset-react@7.0.0-beta.3' }
+152 verbose cache add name="" spec="babel/preset-react@7.0.0-beta.3" args=["","babel/preset-react@7.0.0-beta.3"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: 'babel/preset-react@7.0.0-beta.3',
+153 verbose parsed url   path: 'babel/preset-react@7.0.0-beta.3',
+153 verbose parsed url   href: 'babel/preset-react@7.0.0-beta.3' }
+154 verbose cache add name="babel/preset-react" spec="7.0.0-beta.3" args=["babel/preset-react","7.0.0-beta.3"]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '7.0.0-beta.3',
+155 verbose parsed url   path: '7.0.0-beta.3',
+155 verbose parsed url   href: '7.0.0-beta.3' }
+156 verbose addNamed [ 'babel/preset-react', '7.0.0-beta.3' ]
+157 verbose addNamed [ '7.0.0-beta.3', '7.0.0-beta.3' ]
+158 silly lockFile d46c75ab-babel-preset-react-7-0-0-beta-3 babel/preset-react@7.0.0-beta.3
+159 verbose lock babel/preset-react@7.0.0-beta.3 /Users/pkuzan/.npm/d46c75ab-babel-preset-react-7-0-0-beta-3.lock
+160 verbose cache add [ '@babel/register@7.0.0-rc2', null ]
+161 verbose cache add name=undefined spec="@babel/register@7.0.0-rc2" args=["@babel/register@7.0.0-rc2",null]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: '@babel/register@7.0.0-rc2',
+162 verbose parsed url   path: '@babel/register@7.0.0-rc2',
+162 verbose parsed url   href: '@babel/register@7.0.0-rc2' }
+163 verbose cache add name="" spec="babel/register@7.0.0-rc2" args=["","babel/register@7.0.0-rc2"]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: 'babel/register@7.0.0-rc2',
+164 verbose parsed url   path: 'babel/register@7.0.0-rc2',
+164 verbose parsed url   href: 'babel/register@7.0.0-rc2' }
+165 verbose cache add name="babel/register" spec="7.0.0-rc2" args=["babel/register","7.0.0-rc2"]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: '7.0.0-rc2',
+166 verbose parsed url   path: '7.0.0-rc2',
+166 verbose parsed url   href: '7.0.0-rc2' }
+167 verbose addNamed [ 'babel/register', '7.0.0-rc2' ]
+168 verbose addNamed [ '7.0.0-rc2', '7.0.0-rc2' ]
+169 silly lockFile 15bad97a-babel-register-7-0-0-rc2 babel/register@7.0.0-rc2
+170 verbose lock babel/register@7.0.0-rc2 /Users/pkuzan/.npm/15bad97a-babel-register-7-0-0-rc2.lock
+171 verbose cache add [ 'babel-loader@8.0.0-beta.6', null ]
+172 verbose cache add name=undefined spec="babel-loader@8.0.0-beta.6" args=["babel-loader@8.0.0-beta.6",null]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: 'babel-loader@8.0.0-beta.6',
+173 verbose parsed url   path: 'babel-loader@8.0.0-beta.6',
+173 verbose parsed url   href: 'babel-loader@8.0.0-beta.6' }
+174 verbose cache add name="babel-loader" spec="8.0.0-beta.6" args=["babel-loader","8.0.0-beta.6"]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: '8.0.0-beta.6',
+175 verbose parsed url   path: '8.0.0-beta.6',
+175 verbose parsed url   href: '8.0.0-beta.6' }
+176 verbose addNamed [ 'babel-loader', '8.0.0-beta.6' ]
+177 verbose addNamed [ '8.0.0-beta.6', '8.0.0-beta.6' ]
+178 silly lockFile b2118c52-babel-loader-8-0-0-beta-6 babel-loader@8.0.0-beta.6
+179 verbose lock babel-loader@8.0.0-beta.6 /Users/pkuzan/.npm/b2118c52-babel-loader-8-0-0-beta-6.lock
+180 verbose cache add [ 'copy-webpack-plugin@4.5.1', null ]
+181 verbose cache add name=undefined spec="copy-webpack-plugin@4.5.1" args=["copy-webpack-plugin@4.5.1",null]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: 'copy-webpack-plugin@4.5.1',
+182 verbose parsed url   path: 'copy-webpack-plugin@4.5.1',
+182 verbose parsed url   href: 'copy-webpack-plugin@4.5.1' }
+183 verbose cache add name="copy-webpack-plugin" spec="4.5.1" args=["copy-webpack-plugin","4.5.1"]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: '4.5.1',
+184 verbose parsed url   path: '4.5.1',
+184 verbose parsed url   href: '4.5.1' }
+185 verbose addNamed [ 'copy-webpack-plugin', '4.5.1' ]
+186 verbose addNamed [ '4.5.1', '4.5.1' ]
+187 silly lockFile 75a5b1d7-copy-webpack-plugin-4-5-1 copy-webpack-plugin@4.5.1
+188 verbose lock copy-webpack-plugin@4.5.1 /Users/pkuzan/.npm/75a5b1d7-copy-webpack-plugin-4-5-1.lock
+189 verbose cache add [ 'css-loader@0.28.1', null ]
+190 verbose cache add name=undefined spec="css-loader@0.28.1" args=["css-loader@0.28.1",null]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: 'css-loader@0.28.1',
+191 verbose parsed url   path: 'css-loader@0.28.1',
+191 verbose parsed url   href: 'css-loader@0.28.1' }
+192 verbose cache add name="css-loader" spec="0.28.1" args=["css-loader","0.28.1"]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '0.28.1',
+193 verbose parsed url   path: '0.28.1',
+193 verbose parsed url   href: '0.28.1' }
+194 verbose addNamed [ 'css-loader', '0.28.1' ]
+195 verbose addNamed [ '0.28.1', '0.28.1' ]
+196 silly lockFile e2015eb3-css-loader-0-28-1 css-loader@0.28.1
+197 verbose lock css-loader@0.28.1 /Users/pkuzan/.npm/e2015eb3-css-loader-0-28-1.lock
+198 verbose cache add [ 'eslint@4.19.1', null ]
+199 verbose cache add name=undefined spec="eslint@4.19.1" args=["eslint@4.19.1",null]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'eslint@4.19.1',
+200 verbose parsed url   path: 'eslint@4.19.1',
+200 verbose parsed url   href: 'eslint@4.19.1' }
+201 verbose cache add name="eslint" spec="4.19.1" args=["eslint","4.19.1"]
+202 verbose parsed url { protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: '4.19.1',
+202 verbose parsed url   path: '4.19.1',
+202 verbose parsed url   href: '4.19.1' }
+203 verbose addNamed [ 'eslint', '4.19.1' ]
+204 verbose addNamed [ '4.19.1', '4.19.1' ]
+205 silly lockFile a186aa54-eslint-4-19-1 eslint@4.19.1
+206 verbose lock eslint@4.19.1 /Users/pkuzan/.npm/a186aa54-eslint-4-19-1.lock
+207 verbose cache add [ 'eslint-config-standard@11.0.0', null ]
+208 verbose cache add name=undefined spec="eslint-config-standard@11.0.0" args=["eslint-config-standard@11.0.0",null]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: 'eslint-config-standard@11.0.0',
+209 verbose parsed url   path: 'eslint-config-standard@11.0.0',
+209 verbose parsed url   href: 'eslint-config-standard@11.0.0' }
+210 verbose cache add name="eslint-config-standard" spec="11.0.0" args=["eslint-config-standard","11.0.0"]
+211 verbose parsed url { protocol: null,
+211 verbose parsed url   slashes: null,
+211 verbose parsed url   auth: null,
+211 verbose parsed url   host: null,
+211 verbose parsed url   port: null,
+211 verbose parsed url   hostname: null,
+211 verbose parsed url   hash: null,
+211 verbose parsed url   search: null,
+211 verbose parsed url   query: null,
+211 verbose parsed url   pathname: '11.0.0',
+211 verbose parsed url   path: '11.0.0',
+211 verbose parsed url   href: '11.0.0' }
+212 verbose addNamed [ 'eslint-config-standard', '11.0.0' ]
+213 verbose addNamed [ '11.0.0', '11.0.0' ]
+214 silly lockFile 001fd3cd-eslint-config-standard-11-0-0 eslint-config-standard@11.0.0
+215 verbose lock eslint-config-standard@11.0.0 /Users/pkuzan/.npm/001fd3cd-eslint-config-standard-11-0-0.lock
+216 verbose cache add [ 'eslint-config-standard-jsx@5.0.0', null ]
+217 verbose cache add name=undefined spec="eslint-config-standard-jsx@5.0.0" args=["eslint-config-standard-jsx@5.0.0",null]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: 'eslint-config-standard-jsx@5.0.0',
+218 verbose parsed url   path: 'eslint-config-standard-jsx@5.0.0',
+218 verbose parsed url   href: 'eslint-config-standard-jsx@5.0.0' }
+219 verbose cache add name="eslint-config-standard-jsx" spec="5.0.0" args=["eslint-config-standard-jsx","5.0.0"]
+220 verbose parsed url { protocol: null,
+220 verbose parsed url   slashes: null,
+220 verbose parsed url   auth: null,
+220 verbose parsed url   host: null,
+220 verbose parsed url   port: null,
+220 verbose parsed url   hostname: null,
+220 verbose parsed url   hash: null,
+220 verbose parsed url   search: null,
+220 verbose parsed url   query: null,
+220 verbose parsed url   pathname: '5.0.0',
+220 verbose parsed url   path: '5.0.0',
+220 verbose parsed url   href: '5.0.0' }
+221 verbose addNamed [ 'eslint-config-standard-jsx', '5.0.0' ]
+222 verbose addNamed [ '5.0.0', '5.0.0' ]
+223 silly lockFile 4e5410d2-eslint-config-standard-jsx-5-0-0 eslint-config-standard-jsx@5.0.0
+224 verbose lock eslint-config-standard-jsx@5.0.0 /Users/pkuzan/.npm/4e5410d2-eslint-config-standard-jsx-5-0-0.lock
+225 verbose cache add [ 'eslint-loader@2.0.0', null ]
+226 verbose cache add name=undefined spec="eslint-loader@2.0.0" args=["eslint-loader@2.0.0",null]
+227 verbose parsed url { protocol: null,
+227 verbose parsed url   slashes: null,
+227 verbose parsed url   auth: null,
+227 verbose parsed url   host: null,
+227 verbose parsed url   port: null,
+227 verbose parsed url   hostname: null,
+227 verbose parsed url   hash: null,
+227 verbose parsed url   search: null,
+227 verbose parsed url   query: null,
+227 verbose parsed url   pathname: 'eslint-loader@2.0.0',
+227 verbose parsed url   path: 'eslint-loader@2.0.0',
+227 verbose parsed url   href: 'eslint-loader@2.0.0' }
+228 verbose cache add name="eslint-loader" spec="2.0.0" args=["eslint-loader","2.0.0"]
+229 verbose parsed url { protocol: null,
+229 verbose parsed url   slashes: null,
+229 verbose parsed url   auth: null,
+229 verbose parsed url   host: null,
+229 verbose parsed url   port: null,
+229 verbose parsed url   hostname: null,
+229 verbose parsed url   hash: null,
+229 verbose parsed url   search: null,
+229 verbose parsed url   query: null,
+229 verbose parsed url   pathname: '2.0.0',
+229 verbose parsed url   path: '2.0.0',
+229 verbose parsed url   href: '2.0.0' }
+230 verbose addNamed [ 'eslint-loader', '2.0.0' ]
+231 verbose addNamed [ '2.0.0', '2.0.0' ]
+232 silly lockFile 156a8fa2-eslint-loader-2-0-0 eslint-loader@2.0.0
+233 verbose lock eslint-loader@2.0.0 /Users/pkuzan/.npm/156a8fa2-eslint-loader-2-0-0.lock
+234 verbose cache add [ 'eslint-plugin-import@2.11.0', null ]
+235 verbose cache add name=undefined spec="eslint-plugin-import@2.11.0" args=["eslint-plugin-import@2.11.0",null]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: 'eslint-plugin-import@2.11.0',
+236 verbose parsed url   path: 'eslint-plugin-import@2.11.0',
+236 verbose parsed url   href: 'eslint-plugin-import@2.11.0' }
+237 verbose cache add name="eslint-plugin-import" spec="2.11.0" args=["eslint-plugin-import","2.11.0"]
+238 verbose parsed url { protocol: null,
+238 verbose parsed url   slashes: null,
+238 verbose parsed url   auth: null,
+238 verbose parsed url   host: null,
+238 verbose parsed url   port: null,
+238 verbose parsed url   hostname: null,
+238 verbose parsed url   hash: null,
+238 verbose parsed url   search: null,
+238 verbose parsed url   query: null,
+238 verbose parsed url   pathname: '2.11.0',
+238 verbose parsed url   path: '2.11.0',
+238 verbose parsed url   href: '2.11.0' }
+239 verbose addNamed [ 'eslint-plugin-import', '2.11.0' ]
+240 verbose addNamed [ '2.11.0', '2.11.0' ]
+241 silly lockFile 341f1e16-eslint-plugin-import-2-11-0 eslint-plugin-import@2.11.0
+242 verbose lock eslint-plugin-import@2.11.0 /Users/pkuzan/.npm/341f1e16-eslint-plugin-import-2-11-0.lock
+243 verbose cache add [ 'eslint-plugin-node@6.0.1', null ]
+244 verbose cache add name=undefined spec="eslint-plugin-node@6.0.1" args=["eslint-plugin-node@6.0.1",null]
+245 verbose parsed url { protocol: null,
+245 verbose parsed url   slashes: null,
+245 verbose parsed url   auth: null,
+245 verbose parsed url   host: null,
+245 verbose parsed url   port: null,
+245 verbose parsed url   hostname: null,
+245 verbose parsed url   hash: null,
+245 verbose parsed url   search: null,
+245 verbose parsed url   query: null,
+245 verbose parsed url   pathname: 'eslint-plugin-node@6.0.1',
+245 verbose parsed url   path: 'eslint-plugin-node@6.0.1',
+245 verbose parsed url   href: 'eslint-plugin-node@6.0.1' }
+246 verbose cache add name="eslint-plugin-node" spec="6.0.1" args=["eslint-plugin-node","6.0.1"]
+247 verbose parsed url { protocol: null,
+247 verbose parsed url   slashes: null,
+247 verbose parsed url   auth: null,
+247 verbose parsed url   host: null,
+247 verbose parsed url   port: null,
+247 verbose parsed url   hostname: null,
+247 verbose parsed url   hash: null,
+247 verbose parsed url   search: null,
+247 verbose parsed url   query: null,
+247 verbose parsed url   pathname: '6.0.1',
+247 verbose parsed url   path: '6.0.1',
+247 verbose parsed url   href: '6.0.1' }
+248 verbose addNamed [ 'eslint-plugin-node', '6.0.1' ]
+249 verbose addNamed [ '6.0.1', '6.0.1' ]
+250 silly lockFile 4d25b506-eslint-plugin-node-6-0-1 eslint-plugin-node@6.0.1
+251 verbose lock eslint-plugin-node@6.0.1 /Users/pkuzan/.npm/4d25b506-eslint-plugin-node-6-0-1.lock
+252 verbose cache add [ 'eslint-plugin-promise@3.7.0', null ]
+253 verbose cache add name=undefined spec="eslint-plugin-promise@3.7.0" args=["eslint-plugin-promise@3.7.0",null]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: 'eslint-plugin-promise@3.7.0',
+254 verbose parsed url   path: 'eslint-plugin-promise@3.7.0',
+254 verbose parsed url   href: 'eslint-plugin-promise@3.7.0' }
+255 verbose cache add name="eslint-plugin-promise" spec="3.7.0" args=["eslint-plugin-promise","3.7.0"]
+256 verbose parsed url { protocol: null,
+256 verbose parsed url   slashes: null,
+256 verbose parsed url   auth: null,
+256 verbose parsed url   host: null,
+256 verbose parsed url   port: null,
+256 verbose parsed url   hostname: null,
+256 verbose parsed url   hash: null,
+256 verbose parsed url   search: null,
+256 verbose parsed url   query: null,
+256 verbose parsed url   pathname: '3.7.0',
+256 verbose parsed url   path: '3.7.0',
+256 verbose parsed url   href: '3.7.0' }
+257 verbose addNamed [ 'eslint-plugin-promise', '3.7.0' ]
+258 verbose addNamed [ '3.7.0', '3.7.0' ]
+259 silly lockFile f7033da8-eslint-plugin-promise-3-7-0 eslint-plugin-promise@3.7.0
+260 verbose lock eslint-plugin-promise@3.7.0 /Users/pkuzan/.npm/f7033da8-eslint-plugin-promise-3-7-0.lock
+261 verbose cache add [ 'eslint-plugin-react@7.7.0', null ]
+262 verbose cache add name=undefined spec="eslint-plugin-react@7.7.0" args=["eslint-plugin-react@7.7.0",null]
+263 verbose parsed url { protocol: null,
+263 verbose parsed url   slashes: null,
+263 verbose parsed url   auth: null,
+263 verbose parsed url   host: null,
+263 verbose parsed url   port: null,
+263 verbose parsed url   hostname: null,
+263 verbose parsed url   hash: null,
+263 verbose parsed url   search: null,
+263 verbose parsed url   query: null,
+263 verbose parsed url   pathname: 'eslint-plugin-react@7.7.0',
+263 verbose parsed url   path: 'eslint-plugin-react@7.7.0',
+263 verbose parsed url   href: 'eslint-plugin-react@7.7.0' }
+264 verbose cache add name="eslint-plugin-react" spec="7.7.0" args=["eslint-plugin-react","7.7.0"]
+265 verbose parsed url { protocol: null,
+265 verbose parsed url   slashes: null,
+265 verbose parsed url   auth: null,
+265 verbose parsed url   host: null,
+265 verbose parsed url   port: null,
+265 verbose parsed url   hostname: null,
+265 verbose parsed url   hash: null,
+265 verbose parsed url   search: null,
+265 verbose parsed url   query: null,
+265 verbose parsed url   pathname: '7.7.0',
+265 verbose parsed url   path: '7.7.0',
+265 verbose parsed url   href: '7.7.0' }
+266 verbose addNamed [ 'eslint-plugin-react', '7.7.0' ]
+267 verbose addNamed [ '7.7.0', '7.7.0' ]
+268 silly lockFile 4ae43856-eslint-plugin-react-7-7-0 eslint-plugin-react@7.7.0
+269 verbose lock eslint-plugin-react@7.7.0 /Users/pkuzan/.npm/4ae43856-eslint-plugin-react-7-7-0.lock
+270 verbose cache add [ 'eslint-plugin-standard@3.0.1', null ]
+271 verbose cache add name=undefined spec="eslint-plugin-standard@3.0.1" args=["eslint-plugin-standard@3.0.1",null]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: 'eslint-plugin-standard@3.0.1',
+272 verbose parsed url   path: 'eslint-plugin-standard@3.0.1',
+272 verbose parsed url   href: 'eslint-plugin-standard@3.0.1' }
+273 verbose cache add name="eslint-plugin-standard" spec="3.0.1" args=["eslint-plugin-standard","3.0.1"]
+274 verbose parsed url { protocol: null,
+274 verbose parsed url   slashes: null,
+274 verbose parsed url   auth: null,
+274 verbose parsed url   host: null,
+274 verbose parsed url   port: null,
+274 verbose parsed url   hostname: null,
+274 verbose parsed url   hash: null,
+274 verbose parsed url   search: null,
+274 verbose parsed url   query: null,
+274 verbose parsed url   pathname: '3.0.1',
+274 verbose parsed url   path: '3.0.1',
+274 verbose parsed url   href: '3.0.1' }
+275 verbose addNamed [ 'eslint-plugin-standard', '3.0.1' ]
+276 verbose addNamed [ '3.0.1', '3.0.1' ]
+277 silly lockFile 61f8cc43-eslint-plugin-standard-3-0-1 eslint-plugin-standard@3.0.1
+278 verbose lock eslint-plugin-standard@3.0.1 /Users/pkuzan/.npm/61f8cc43-eslint-plugin-standard-3-0-1.lock
+279 verbose cache add [ 'file-loader@1.1.11', null ]
+280 verbose cache add name=undefined spec="file-loader@1.1.11" args=["file-loader@1.1.11",null]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: 'file-loader@1.1.11',
+281 verbose parsed url   path: 'file-loader@1.1.11',
+281 verbose parsed url   href: 'file-loader@1.1.11' }
+282 verbose cache add name="file-loader" spec="1.1.11" args=["file-loader","1.1.11"]
+283 verbose parsed url { protocol: null,
+283 verbose parsed url   slashes: null,
+283 verbose parsed url   auth: null,
+283 verbose parsed url   host: null,
+283 verbose parsed url   port: null,
+283 verbose parsed url   hostname: null,
+283 verbose parsed url   hash: null,
+283 verbose parsed url   search: null,
+283 verbose parsed url   query: null,
+283 verbose parsed url   pathname: '1.1.11',
+283 verbose parsed url   path: '1.1.11',
+283 verbose parsed url   href: '1.1.11' }
+284 verbose addNamed [ 'file-loader', '1.1.11' ]
+285 verbose addNamed [ '1.1.11', '1.1.11' ]
+286 silly lockFile 8e041082-file-loader-1-1-11 file-loader@1.1.11
+287 verbose lock file-loader@1.1.11 /Users/pkuzan/.npm/8e041082-file-loader-1-1-11.lock
+288 verbose cache add [ 'html-loader@0.5.5', null ]
+289 verbose cache add name=undefined spec="html-loader@0.5.5" args=["html-loader@0.5.5",null]
+290 verbose parsed url { protocol: null,
+290 verbose parsed url   slashes: null,
+290 verbose parsed url   auth: null,
+290 verbose parsed url   host: null,
+290 verbose parsed url   port: null,
+290 verbose parsed url   hostname: null,
+290 verbose parsed url   hash: null,
+290 verbose parsed url   search: null,
+290 verbose parsed url   query: null,
+290 verbose parsed url   pathname: 'html-loader@0.5.5',
+290 verbose parsed url   path: 'html-loader@0.5.5',
+290 verbose parsed url   href: 'html-loader@0.5.5' }
+291 verbose cache add name="html-loader" spec="0.5.5" args=["html-loader","0.5.5"]
+292 verbose parsed url { protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '0.5.5',
+292 verbose parsed url   path: '0.5.5',
+292 verbose parsed url   href: '0.5.5' }
+293 verbose addNamed [ 'html-loader', '0.5.5' ]
+294 verbose addNamed [ '0.5.5', '0.5.5' ]
+295 silly lockFile 965b7600-html-loader-0-5-5 html-loader@0.5.5
+296 verbose lock html-loader@0.5.5 /Users/pkuzan/.npm/965b7600-html-loader-0-5-5.lock
+297 verbose cache add [ 'html-webpack-plugin@3.2.0', null ]
+298 verbose cache add name=undefined spec="html-webpack-plugin@3.2.0" args=["html-webpack-plugin@3.2.0",null]
+299 verbose parsed url { protocol: null,
+299 verbose parsed url   slashes: null,
+299 verbose parsed url   auth: null,
+299 verbose parsed url   host: null,
+299 verbose parsed url   port: null,
+299 verbose parsed url   hostname: null,
+299 verbose parsed url   hash: null,
+299 verbose parsed url   search: null,
+299 verbose parsed url   query: null,
+299 verbose parsed url   pathname: 'html-webpack-plugin@3.2.0',
+299 verbose parsed url   path: 'html-webpack-plugin@3.2.0',
+299 verbose parsed url   href: 'html-webpack-plugin@3.2.0' }
+300 verbose cache add name="html-webpack-plugin" spec="3.2.0" args=["html-webpack-plugin","3.2.0"]
+301 verbose parsed url { protocol: null,
+301 verbose parsed url   slashes: null,
+301 verbose parsed url   auth: null,
+301 verbose parsed url   host: null,
+301 verbose parsed url   port: null,
+301 verbose parsed url   hostname: null,
+301 verbose parsed url   hash: null,
+301 verbose parsed url   search: null,
+301 verbose parsed url   query: null,
+301 verbose parsed url   pathname: '3.2.0',
+301 verbose parsed url   path: '3.2.0',
+301 verbose parsed url   href: '3.2.0' }
+302 verbose addNamed [ 'html-webpack-plugin', '3.2.0' ]
+303 verbose addNamed [ '3.2.0', '3.2.0' ]
+304 silly lockFile 7455cf5a-html-webpack-plugin-3-2-0 html-webpack-plugin@3.2.0
+305 verbose lock html-webpack-plugin@3.2.0 /Users/pkuzan/.npm/7455cf5a-html-webpack-plugin-3-2-0.lock
+306 verbose cache add [ 'htmlhint-loader@1.3.1', null ]
+307 verbose cache add name=undefined spec="htmlhint-loader@1.3.1" args=["htmlhint-loader@1.3.1",null]
+308 verbose parsed url { protocol: null,
+308 verbose parsed url   slashes: null,
+308 verbose parsed url   auth: null,
+308 verbose parsed url   host: null,
+308 verbose parsed url   port: null,
+308 verbose parsed url   hostname: null,
+308 verbose parsed url   hash: null,
+308 verbose parsed url   search: null,
+308 verbose parsed url   query: null,
+308 verbose parsed url   pathname: 'htmlhint-loader@1.3.1',
+308 verbose parsed url   path: 'htmlhint-loader@1.3.1',
+308 verbose parsed url   href: 'htmlhint-loader@1.3.1' }
+309 verbose cache add name="htmlhint-loader" spec="1.3.1" args=["htmlhint-loader","1.3.1"]
+310 verbose parsed url { protocol: null,
+310 verbose parsed url   slashes: null,
+310 verbose parsed url   auth: null,
+310 verbose parsed url   host: null,
+310 verbose parsed url   port: null,
+310 verbose parsed url   hostname: null,
+310 verbose parsed url   hash: null,
+310 verbose parsed url   search: null,
+310 verbose parsed url   query: null,
+310 verbose parsed url   pathname: '1.3.1',
+310 verbose parsed url   path: '1.3.1',
+310 verbose parsed url   href: '1.3.1' }
+311 verbose addNamed [ 'htmlhint-loader', '1.3.1' ]
+312 verbose addNamed [ '1.3.1', '1.3.1' ]
+313 silly lockFile c42323d2-htmlhint-loader-1-3-1 htmlhint-loader@1.3.1
+314 verbose lock htmlhint-loader@1.3.1 /Users/pkuzan/.npm/c42323d2-htmlhint-loader-1-3-1.lock
+315 verbose cache add [ 'mini-css-extract-plugin@0.4.0', null ]
+316 verbose cache add name=undefined spec="mini-css-extract-plugin@0.4.0" args=["mini-css-extract-plugin@0.4.0",null]
+317 verbose parsed url { protocol: null,
+317 verbose parsed url   slashes: null,
+317 verbose parsed url   auth: null,
+317 verbose parsed url   host: null,
+317 verbose parsed url   port: null,
+317 verbose parsed url   hostname: null,
+317 verbose parsed url   hash: null,
+317 verbose parsed url   search: null,
+317 verbose parsed url   query: null,
+317 verbose parsed url   pathname: 'mini-css-extract-plugin@0.4.0',
+317 verbose parsed url   path: 'mini-css-extract-plugin@0.4.0',
+317 verbose parsed url   href: 'mini-css-extract-plugin@0.4.0' }
+318 verbose cache add name="mini-css-extract-plugin" spec="0.4.0" args=["mini-css-extract-plugin","0.4.0"]
+319 verbose parsed url { protocol: null,
+319 verbose parsed url   slashes: null,
+319 verbose parsed url   auth: null,
+319 verbose parsed url   host: null,
+319 verbose parsed url   port: null,
+319 verbose parsed url   hostname: null,
+319 verbose parsed url   hash: null,
+319 verbose parsed url   search: null,
+319 verbose parsed url   query: null,
+319 verbose parsed url   pathname: '0.4.0',
+319 verbose parsed url   path: '0.4.0',
+319 verbose parsed url   href: '0.4.0' }
+320 verbose addNamed [ 'mini-css-extract-plugin', '0.4.0' ]
+321 verbose addNamed [ '0.4.0', '0.4.0' ]
+322 silly lockFile d40b7d38-mini-css-extract-plugin-0-4-0 mini-css-extract-plugin@0.4.0
+323 verbose lock mini-css-extract-plugin@0.4.0 /Users/pkuzan/.npm/d40b7d38-mini-css-extract-plugin-0-4-0.lock
+324 verbose cache add [ 'node-sass@4.8.3', null ]
+325 verbose cache add name=undefined spec="node-sass@4.8.3" args=["node-sass@4.8.3",null]
+326 verbose parsed url { protocol: null,
+326 verbose parsed url   slashes: null,
+326 verbose parsed url   auth: null,
+326 verbose parsed url   host: null,
+326 verbose parsed url   port: null,
+326 verbose parsed url   hostname: null,
+326 verbose parsed url   hash: null,
+326 verbose parsed url   search: null,
+326 verbose parsed url   query: null,
+326 verbose parsed url   pathname: 'node-sass@4.8.3',
+326 verbose parsed url   path: 'node-sass@4.8.3',
+326 verbose parsed url   href: 'node-sass@4.8.3' }
+327 verbose cache add name="node-sass" spec="4.8.3" args=["node-sass","4.8.3"]
+328 verbose parsed url { protocol: null,
+328 verbose parsed url   slashes: null,
+328 verbose parsed url   auth: null,
+328 verbose parsed url   host: null,
+328 verbose parsed url   port: null,
+328 verbose parsed url   hostname: null,
+328 verbose parsed url   hash: null,
+328 verbose parsed url   search: null,
+328 verbose parsed url   query: null,
+328 verbose parsed url   pathname: '4.8.3',
+328 verbose parsed url   path: '4.8.3',
+328 verbose parsed url   href: '4.8.3' }
+329 verbose addNamed [ 'node-sass', '4.8.3' ]
+330 verbose addNamed [ '4.8.3', '4.8.3' ]
+331 silly lockFile e4cef394-node-sass-4-8-3 node-sass@4.8.3
+332 verbose lock node-sass@4.8.3 /Users/pkuzan/.npm/e4cef394-node-sass-4-8-3.lock
+333 verbose cache add [ 'optimize-css-assets-webpack-plugin@4.0.0', null ]
+334 verbose cache add name=undefined spec="optimize-css-assets-webpack-plugin@4.0.0" args=["optimize-css-assets-webpack-plugin@4.0.0",null]
+335 verbose parsed url { protocol: null,
+335 verbose parsed url   slashes: null,
+335 verbose parsed url   auth: null,
+335 verbose parsed url   host: null,
+335 verbose parsed url   port: null,
+335 verbose parsed url   hostname: null,
+335 verbose parsed url   hash: null,
+335 verbose parsed url   search: null,
+335 verbose parsed url   query: null,
+335 verbose parsed url   pathname: 'optimize-css-assets-webpack-plugin@4.0.0',
+335 verbose parsed url   path: 'optimize-css-assets-webpack-plugin@4.0.0',
+335 verbose parsed url   href: 'optimize-css-assets-webpack-plugin@4.0.0' }
+336 verbose cache add name="optimize-css-assets-webpack-plugin" spec="4.0.0" args=["optimize-css-assets-webpack-plugin","4.0.0"]
+337 verbose parsed url { protocol: null,
+337 verbose parsed url   slashes: null,
+337 verbose parsed url   auth: null,
+337 verbose parsed url   host: null,
+337 verbose parsed url   port: null,
+337 verbose parsed url   hostname: null,
+337 verbose parsed url   hash: null,
+337 verbose parsed url   search: null,
+337 verbose parsed url   query: null,
+337 verbose parsed url   pathname: '4.0.0',
+337 verbose parsed url   path: '4.0.0',
+337 verbose parsed url   href: '4.0.0' }
+338 verbose addNamed [ 'optimize-css-assets-webpack-plugin', '4.0.0' ]
+339 verbose addNamed [ '4.0.0', '4.0.0' ]
+340 silly lockFile 3135f87e--css-assets-webpack-plugin-4-0-0 optimize-css-assets-webpack-plugin@4.0.0
+341 verbose lock optimize-css-assets-webpack-plugin@4.0.0 /Users/pkuzan/.npm/3135f87e--css-assets-webpack-plugin-4-0-0.lock
+342 verbose cache add [ 'raw-loader@0.5.1', null ]
+343 verbose cache add name=undefined spec="raw-loader@0.5.1" args=["raw-loader@0.5.1",null]
+344 verbose parsed url { protocol: null,
+344 verbose parsed url   slashes: null,
+344 verbose parsed url   auth: null,
+344 verbose parsed url   host: null,
+344 verbose parsed url   port: null,
+344 verbose parsed url   hostname: null,
+344 verbose parsed url   hash: null,
+344 verbose parsed url   search: null,
+344 verbose parsed url   query: null,
+344 verbose parsed url   pathname: 'raw-loader@0.5.1',
+344 verbose parsed url   path: 'raw-loader@0.5.1',
+344 verbose parsed url   href: 'raw-loader@0.5.1' }
+345 verbose cache add name="raw-loader" spec="0.5.1" args=["raw-loader","0.5.1"]
+346 verbose parsed url { protocol: null,
+346 verbose parsed url   slashes: null,
+346 verbose parsed url   auth: null,
+346 verbose parsed url   host: null,
+346 verbose parsed url   port: null,
+346 verbose parsed url   hostname: null,
+346 verbose parsed url   hash: null,
+346 verbose parsed url   search: null,
+346 verbose parsed url   query: null,
+346 verbose parsed url   pathname: '0.5.1',
+346 verbose parsed url   path: '0.5.1',
+346 verbose parsed url   href: '0.5.1' }
+347 verbose addNamed [ 'raw-loader', '0.5.1' ]
+348 verbose addNamed [ '0.5.1', '0.5.1' ]
+349 silly lockFile 5d62dda3-raw-loader-0-5-1 raw-loader@0.5.1
+350 verbose lock raw-loader@0.5.1 /Users/pkuzan/.npm/5d62dda3-raw-loader-0-5-1.lock
+351 verbose cache add [ 'react-hot-loader@4.1.1', null ]
+352 verbose cache add name=undefined spec="react-hot-loader@4.1.1" args=["react-hot-loader@4.1.1",null]
+353 verbose parsed url { protocol: null,
+353 verbose parsed url   slashes: null,
+353 verbose parsed url   auth: null,
+353 verbose parsed url   host: null,
+353 verbose parsed url   port: null,
+353 verbose parsed url   hostname: null,
+353 verbose parsed url   hash: null,
+353 verbose parsed url   search: null,
+353 verbose parsed url   query: null,
+353 verbose parsed url   pathname: 'react-hot-loader@4.1.1',
+353 verbose parsed url   path: 'react-hot-loader@4.1.1',
+353 verbose parsed url   href: 'react-hot-loader@4.1.1' }
+354 verbose cache add name="react-hot-loader" spec="4.1.1" args=["react-hot-loader","4.1.1"]
+355 verbose parsed url { protocol: null,
+355 verbose parsed url   slashes: null,
+355 verbose parsed url   auth: null,
+355 verbose parsed url   host: null,
+355 verbose parsed url   port: null,
+355 verbose parsed url   hostname: null,
+355 verbose parsed url   hash: null,
+355 verbose parsed url   search: null,
+355 verbose parsed url   query: null,
+355 verbose parsed url   pathname: '4.1.1',
+355 verbose parsed url   path: '4.1.1',
+355 verbose parsed url   href: '4.1.1' }
+356 verbose addNamed [ 'react-hot-loader', '4.1.1' ]
+357 verbose addNamed [ '4.1.1', '4.1.1' ]
+358 silly lockFile 43b8bd3c-react-hot-loader-4-1-1 react-hot-loader@4.1.1
+359 verbose lock react-hot-loader@4.1.1 /Users/pkuzan/.npm/43b8bd3c-react-hot-loader-4-1-1.lock
+360 verbose cache add [ 'rimraf@2.6.2', null ]
+361 verbose cache add name=undefined spec="rimraf@2.6.2" args=["rimraf@2.6.2",null]
+362 verbose parsed url { protocol: null,
+362 verbose parsed url   slashes: null,
+362 verbose parsed url   auth: null,
+362 verbose parsed url   host: null,
+362 verbose parsed url   port: null,
+362 verbose parsed url   hostname: null,
+362 verbose parsed url   hash: null,
+362 verbose parsed url   search: null,
+362 verbose parsed url   query: null,
+362 verbose parsed url   pathname: 'rimraf@2.6.2',
+362 verbose parsed url   path: 'rimraf@2.6.2',
+362 verbose parsed url   href: 'rimraf@2.6.2' }
+363 verbose cache add name="rimraf" spec="2.6.2" args=["rimraf","2.6.2"]
+364 verbose parsed url { protocol: null,
+364 verbose parsed url   slashes: null,
+364 verbose parsed url   auth: null,
+364 verbose parsed url   host: null,
+364 verbose parsed url   port: null,
+364 verbose parsed url   hostname: null,
+364 verbose parsed url   hash: null,
+364 verbose parsed url   search: null,
+364 verbose parsed url   query: null,
+364 verbose parsed url   pathname: '2.6.2',
+364 verbose parsed url   path: '2.6.2',
+364 verbose parsed url   href: '2.6.2' }
+365 verbose addNamed [ 'rimraf', '2.6.2' ]
+366 verbose addNamed [ '2.6.2', '2.6.2' ]
+367 silly lockFile ad92b07c-rimraf-2-6-2 rimraf@2.6.2
+368 verbose lock rimraf@2.6.2 /Users/pkuzan/.npm/ad92b07c-rimraf-2-6-2.lock
+369 verbose cache add [ 'sass-loader@7.0.1', null ]
+370 verbose cache add name=undefined spec="sass-loader@7.0.1" args=["sass-loader@7.0.1",null]
+371 verbose parsed url { protocol: null,
+371 verbose parsed url   slashes: null,
+371 verbose parsed url   auth: null,
+371 verbose parsed url   host: null,
+371 verbose parsed url   port: null,
+371 verbose parsed url   hostname: null,
+371 verbose parsed url   hash: null,
+371 verbose parsed url   search: null,
+371 verbose parsed url   query: null,
+371 verbose parsed url   pathname: 'sass-loader@7.0.1',
+371 verbose parsed url   path: 'sass-loader@7.0.1',
+371 verbose parsed url   href: 'sass-loader@7.0.1' }
+372 verbose cache add name="sass-loader" spec="7.0.1" args=["sass-loader","7.0.1"]
+373 verbose parsed url { protocol: null,
+373 verbose parsed url   slashes: null,
+373 verbose parsed url   auth: null,
+373 verbose parsed url   host: null,
+373 verbose parsed url   port: null,
+373 verbose parsed url   hostname: null,
+373 verbose parsed url   hash: null,
+373 verbose parsed url   search: null,
+373 verbose parsed url   query: null,
+373 verbose parsed url   pathname: '7.0.1',
+373 verbose parsed url   path: '7.0.1',
+373 verbose parsed url   href: '7.0.1' }
+374 verbose addNamed [ 'sass-loader', '7.0.1' ]
+375 verbose addNamed [ '7.0.1', '7.0.1' ]
+376 silly lockFile 97a5fd4d-sass-loader-7-0-1 sass-loader@7.0.1
+377 verbose lock sass-loader@7.0.1 /Users/pkuzan/.npm/97a5fd4d-sass-loader-7-0-1.lock
+378 verbose cache add [ 'style-loader@0.21.0', null ]
+379 verbose cache add name=undefined spec="style-loader@0.21.0" args=["style-loader@0.21.0",null]
+380 verbose parsed url { protocol: null,
+380 verbose parsed url   slashes: null,
+380 verbose parsed url   auth: null,
+380 verbose parsed url   host: null,
+380 verbose parsed url   port: null,
+380 verbose parsed url   hostname: null,
+380 verbose parsed url   hash: null,
+380 verbose parsed url   search: null,
+380 verbose parsed url   query: null,
+380 verbose parsed url   pathname: 'style-loader@0.21.0',
+380 verbose parsed url   path: 'style-loader@0.21.0',
+380 verbose parsed url   href: 'style-loader@0.21.0' }
+381 verbose cache add name="style-loader" spec="0.21.0" args=["style-loader","0.21.0"]
+382 verbose parsed url { protocol: null,
+382 verbose parsed url   slashes: null,
+382 verbose parsed url   auth: null,
+382 verbose parsed url   host: null,
+382 verbose parsed url   port: null,
+382 verbose parsed url   hostname: null,
+382 verbose parsed url   hash: null,
+382 verbose parsed url   search: null,
+382 verbose parsed url   query: null,
+382 verbose parsed url   pathname: '0.21.0',
+382 verbose parsed url   path: '0.21.0',
+382 verbose parsed url   href: '0.21.0' }
+383 verbose addNamed [ 'style-loader', '0.21.0' ]
+384 verbose addNamed [ '0.21.0', '0.21.0' ]
+385 silly lockFile 27d4aec6-style-loader-0-21-0 style-loader@0.21.0
+386 verbose lock style-loader@0.21.0 /Users/pkuzan/.npm/27d4aec6-style-loader-0-21-0.lock
+387 verbose cache add [ 'uglifyjs-webpack-plugin@1.2.5', null ]
+388 verbose cache add name=undefined spec="uglifyjs-webpack-plugin@1.2.5" args=["uglifyjs-webpack-plugin@1.2.5",null]
+389 verbose parsed url { protocol: null,
+389 verbose parsed url   slashes: null,
+389 verbose parsed url   auth: null,
+389 verbose parsed url   host: null,
+389 verbose parsed url   port: null,
+389 verbose parsed url   hostname: null,
+389 verbose parsed url   hash: null,
+389 verbose parsed url   search: null,
+389 verbose parsed url   query: null,
+389 verbose parsed url   pathname: 'uglifyjs-webpack-plugin@1.2.5',
+389 verbose parsed url   path: 'uglifyjs-webpack-plugin@1.2.5',
+389 verbose parsed url   href: 'uglifyjs-webpack-plugin@1.2.5' }
+390 verbose cache add name="uglifyjs-webpack-plugin" spec="1.2.5" args=["uglifyjs-webpack-plugin","1.2.5"]
+391 verbose parsed url { protocol: null,
+391 verbose parsed url   slashes: null,
+391 verbose parsed url   auth: null,
+391 verbose parsed url   host: null,
+391 verbose parsed url   port: null,
+391 verbose parsed url   hostname: null,
+391 verbose parsed url   hash: null,
+391 verbose parsed url   search: null,
+391 verbose parsed url   query: null,
+391 verbose parsed url   pathname: '1.2.5',
+391 verbose parsed url   path: '1.2.5',
+391 verbose parsed url   href: '1.2.5' }
+392 verbose addNamed [ 'uglifyjs-webpack-plugin', '1.2.5' ]
+393 verbose addNamed [ '1.2.5', '1.2.5' ]
+394 silly lockFile 372d7f02-uglifyjs-webpack-plugin-1-2-5 uglifyjs-webpack-plugin@1.2.5
+395 verbose lock uglifyjs-webpack-plugin@1.2.5 /Users/pkuzan/.npm/372d7f02-uglifyjs-webpack-plugin-1-2-5.lock
+396 verbose cache add [ 'webpack@4.6.0', null ]
+397 verbose cache add name=undefined spec="webpack@4.6.0" args=["webpack@4.6.0",null]
+398 verbose parsed url { protocol: null,
+398 verbose parsed url   slashes: null,
+398 verbose parsed url   auth: null,
+398 verbose parsed url   host: null,
+398 verbose parsed url   port: null,
+398 verbose parsed url   hostname: null,
+398 verbose parsed url   hash: null,
+398 verbose parsed url   search: null,
+398 verbose parsed url   query: null,
+398 verbose parsed url   pathname: 'webpack@4.6.0',
+398 verbose parsed url   path: 'webpack@4.6.0',
+398 verbose parsed url   href: 'webpack@4.6.0' }
+399 verbose cache add name="webpack" spec="4.6.0" args=["webpack","4.6.0"]
+400 verbose parsed url { protocol: null,
+400 verbose parsed url   slashes: null,
+400 verbose parsed url   auth: null,
+400 verbose parsed url   host: null,
+400 verbose parsed url   port: null,
+400 verbose parsed url   hostname: null,
+400 verbose parsed url   hash: null,
+400 verbose parsed url   search: null,
+400 verbose parsed url   query: null,
+400 verbose parsed url   pathname: '4.6.0',
+400 verbose parsed url   path: '4.6.0',
+400 verbose parsed url   href: '4.6.0' }
+401 verbose addNamed [ 'webpack', '4.6.0' ]
+402 verbose addNamed [ '4.6.0', '4.6.0' ]
+403 silly lockFile e085a39c-webpack-4-6-0 webpack@4.6.0
+404 verbose lock webpack@4.6.0 /Users/pkuzan/.npm/e085a39c-webpack-4-6-0.lock
+405 verbose cache add [ 'webpack-cli@2.0.14', null ]
+406 verbose cache add name=undefined spec="webpack-cli@2.0.14" args=["webpack-cli@2.0.14",null]
+407 verbose parsed url { protocol: null,
+407 verbose parsed url   slashes: null,
+407 verbose parsed url   auth: null,
+407 verbose parsed url   host: null,
+407 verbose parsed url   port: null,
+407 verbose parsed url   hostname: null,
+407 verbose parsed url   hash: null,
+407 verbose parsed url   search: null,
+407 verbose parsed url   query: null,
+407 verbose parsed url   pathname: 'webpack-cli@2.0.14',
+407 verbose parsed url   path: 'webpack-cli@2.0.14',
+407 verbose parsed url   href: 'webpack-cli@2.0.14' }
+408 verbose cache add name="webpack-cli" spec="2.0.14" args=["webpack-cli","2.0.14"]
+409 verbose parsed url { protocol: null,
+409 verbose parsed url   slashes: null,
+409 verbose parsed url   auth: null,
+409 verbose parsed url   host: null,
+409 verbose parsed url   port: null,
+409 verbose parsed url   hostname: null,
+409 verbose parsed url   hash: null,
+409 verbose parsed url   search: null,
+409 verbose parsed url   query: null,
+409 verbose parsed url   pathname: '2.0.14',
+409 verbose parsed url   path: '2.0.14',
+409 verbose parsed url   href: '2.0.14' }
+410 verbose addNamed [ 'webpack-cli', '2.0.14' ]
+411 verbose addNamed [ '2.0.14', '2.0.14' ]
+412 silly lockFile ce459dc0-webpack-cli-2-0-14 webpack-cli@2.0.14
+413 verbose lock webpack-cli@2.0.14 /Users/pkuzan/.npm/ce459dc0-webpack-cli-2-0-14.lock
+414 verbose cache add [ 'webpack-dev-server@3.1.3', null ]
+415 verbose cache add name=undefined spec="webpack-dev-server@3.1.3" args=["webpack-dev-server@3.1.3",null]
+416 verbose parsed url { protocol: null,
+416 verbose parsed url   slashes: null,
+416 verbose parsed url   auth: null,
+416 verbose parsed url   host: null,
+416 verbose parsed url   port: null,
+416 verbose parsed url   hostname: null,
+416 verbose parsed url   hash: null,
+416 verbose parsed url   search: null,
+416 verbose parsed url   query: null,
+416 verbose parsed url   pathname: 'webpack-dev-server@3.1.3',
+416 verbose parsed url   path: 'webpack-dev-server@3.1.3',
+416 verbose parsed url   href: 'webpack-dev-server@3.1.3' }
+417 verbose cache add name="webpack-dev-server" spec="3.1.3" args=["webpack-dev-server","3.1.3"]
+418 verbose parsed url { protocol: null,
+418 verbose parsed url   slashes: null,
+418 verbose parsed url   auth: null,
+418 verbose parsed url   host: null,
+418 verbose parsed url   port: null,
+418 verbose parsed url   hostname: null,
+418 verbose parsed url   hash: null,
+418 verbose parsed url   search: null,
+418 verbose parsed url   query: null,
+418 verbose parsed url   pathname: '3.1.3',
+418 verbose parsed url   path: '3.1.3',
+418 verbose parsed url   href: '3.1.3' }
+419 verbose addNamed [ 'webpack-dev-server', '3.1.3' ]
+420 verbose addNamed [ '3.1.3', '3.1.3' ]
+421 silly lockFile 4e7cc860-webpack-dev-server-3-1-3 webpack-dev-server@3.1.3
+422 verbose lock webpack-dev-server@3.1.3 /Users/pkuzan/.npm/4e7cc860-webpack-dev-server-3-1-3.lock
+423 verbose cache add [ 'webpack-merge@4.1.2', null ]
+424 verbose cache add name=undefined spec="webpack-merge@4.1.2" args=["webpack-merge@4.1.2",null]
+425 verbose parsed url { protocol: null,
+425 verbose parsed url   slashes: null,
+425 verbose parsed url   auth: null,
+425 verbose parsed url   host: null,
+425 verbose parsed url   port: null,
+425 verbose parsed url   hostname: null,
+425 verbose parsed url   hash: null,
+425 verbose parsed url   search: null,
+425 verbose parsed url   query: null,
+425 verbose parsed url   pathname: 'webpack-merge@4.1.2',
+425 verbose parsed url   path: 'webpack-merge@4.1.2',
+425 verbose parsed url   href: 'webpack-merge@4.1.2' }
+426 verbose cache add name="webpack-merge" spec="4.1.2" args=["webpack-merge","4.1.2"]
+427 verbose parsed url { protocol: null,
+427 verbose parsed url   slashes: null,
+427 verbose parsed url   auth: null,
+427 verbose parsed url   host: null,
+427 verbose parsed url   port: null,
+427 verbose parsed url   hostname: null,
+427 verbose parsed url   hash: null,
+427 verbose parsed url   search: null,
+427 verbose parsed url   query: null,
+427 verbose parsed url   pathname: '4.1.2',
+427 verbose parsed url   path: '4.1.2',
+427 verbose parsed url   href: '4.1.2' }
+428 verbose addNamed [ 'webpack-merge', '4.1.2' ]
+429 verbose addNamed [ '4.1.2', '4.1.2' ]
+430 silly lockFile 38ee90c6-webpack-merge-4-1-2 webpack-merge@4.1.2
+431 verbose lock webpack-merge@4.1.2 /Users/pkuzan/.npm/38ee90c6-webpack-merge-4-1-2.lock
+432 verbose cache add [ '@awm-moneta/moneta-bootstrap@4.1.0', null ]
+433 verbose cache add name=undefined spec="@awm-moneta/moneta-bootstrap@4.1.0" args=["@awm-moneta/moneta-bootstrap@4.1.0",null]
+434 verbose parsed url { protocol: null,
+434 verbose parsed url   slashes: null,
+434 verbose parsed url   auth: null,
+434 verbose parsed url   host: null,
+434 verbose parsed url   port: null,
+434 verbose parsed url   hostname: null,
+434 verbose parsed url   hash: null,
+434 verbose parsed url   search: null,
+434 verbose parsed url   query: null,
+434 verbose parsed url   pathname: '@awm-moneta/moneta-bootstrap@4.1.0',
+434 verbose parsed url   path: '@awm-moneta/moneta-bootstrap@4.1.0',
+434 verbose parsed url   href: '@awm-moneta/moneta-bootstrap@4.1.0' }
+435 verbose cache add name="" spec="awm-moneta/moneta-bootstrap@4.1.0" args=["","awm-moneta/moneta-bootstrap@4.1.0"]
+436 verbose parsed url { protocol: null,
+436 verbose parsed url   slashes: null,
+436 verbose parsed url   auth: null,
+436 verbose parsed url   host: null,
+436 verbose parsed url   port: null,
+436 verbose parsed url   hostname: null,
+436 verbose parsed url   hash: null,
+436 verbose parsed url   search: null,
+436 verbose parsed url   query: null,
+436 verbose parsed url   pathname: 'awm-moneta/moneta-bootstrap@4.1.0',
+436 verbose parsed url   path: 'awm-moneta/moneta-bootstrap@4.1.0',
+436 verbose parsed url   href: 'awm-moneta/moneta-bootstrap@4.1.0' }
+437 verbose cache add name="awm-moneta/moneta-bootstrap" spec="4.1.0" args=["awm-moneta/moneta-bootstrap","4.1.0"]
+438 verbose parsed url { protocol: null,
+438 verbose parsed url   slashes: null,
+438 verbose parsed url   auth: null,
+438 verbose parsed url   host: null,
+438 verbose parsed url   port: null,
+438 verbose parsed url   hostname: null,
+438 verbose parsed url   hash: null,
+438 verbose parsed url   search: null,
+438 verbose parsed url   query: null,
+438 verbose parsed url   pathname: '4.1.0',
+438 verbose parsed url   path: '4.1.0',
+438 verbose parsed url   href: '4.1.0' }
+439 verbose addNamed [ 'awm-moneta/moneta-bootstrap', '4.1.0' ]
+440 verbose addNamed [ '4.1.0', '4.1.0' ]
+441 silly lockFile 1b8da57c-wm-moneta-moneta-bootstrap-4-1-0 awm-moneta/moneta-bootstrap@4.1.0
+442 verbose lock awm-moneta/moneta-bootstrap@4.1.0 /Users/pkuzan/.npm/1b8da57c-wm-moneta-moneta-bootstrap-4-1-0.lock
+443 verbose cache add [ 'classnames@2.2.5', null ]
+444 verbose cache add name=undefined spec="classnames@2.2.5" args=["classnames@2.2.5",null]
+445 verbose parsed url { protocol: null,
+445 verbose parsed url   slashes: null,
+445 verbose parsed url   auth: null,
+445 verbose parsed url   host: null,
+445 verbose parsed url   port: null,
+445 verbose parsed url   hostname: null,
+445 verbose parsed url   hash: null,
+445 verbose parsed url   search: null,
+445 verbose parsed url   query: null,
+445 verbose parsed url   pathname: 'classnames@2.2.5',
+445 verbose parsed url   path: 'classnames@2.2.5',
+445 verbose parsed url   href: 'classnames@2.2.5' }
+446 verbose cache add name="classnames" spec="2.2.5" args=["classnames","2.2.5"]
+447 verbose parsed url { protocol: null,
+447 verbose parsed url   slashes: null,
+447 verbose parsed url   auth: null,
+447 verbose parsed url   host: null,
+447 verbose parsed url   port: null,
+447 verbose parsed url   hostname: null,
+447 verbose parsed url   hash: null,
+447 verbose parsed url   search: null,
+447 verbose parsed url   query: null,
+447 verbose parsed url   pathname: '2.2.5',
+447 verbose parsed url   path: '2.2.5',
+447 verbose parsed url   href: '2.2.5' }
+448 verbose addNamed [ 'classnames', '2.2.5' ]
+449 verbose addNamed [ '2.2.5', '2.2.5' ]
+450 silly lockFile 6ef1dd9f-classnames-2-2-5 classnames@2.2.5
+451 verbose lock classnames@2.2.5 /Users/pkuzan/.npm/6ef1dd9f-classnames-2-2-5.lock
+452 verbose url raw babel/preset-react/7.0.0-beta.3
+453 verbose url resolving [ 'https://registry.npmjs.org/',
+453 verbose url resolving   './babel/preset-react/7.0.0-beta.3' ]
+454 verbose url resolved https://registry.npmjs.org/babel/preset-react/7.0.0-beta.3
+455 info trying registry request attempt 1 at 08:49:21
+456 http GET https://registry.npmjs.org/babel/preset-react/7.0.0-beta.3
+457 verbose url raw react/16.3.2
+458 verbose url resolving [ 'https://registry.npmjs.org/', './react/16.3.2' ]
+459 verbose url resolved https://registry.npmjs.org/react/16.3.2
+460 info trying registry request attempt 1 at 08:49:21
+461 http GET https://registry.npmjs.org/react/16.3.2
+462 verbose url raw moment/2.22.1
+463 verbose url resolving [ 'https://registry.npmjs.org/', './moment/2.22.1' ]
+464 verbose url resolved https://registry.npmjs.org/moment/2.22.1
+465 info trying registry request attempt 1 at 08:49:21
+466 http GET https://registry.npmjs.org/moment/2.22.1
+467 verbose url raw core-js/2.5.5
+468 verbose url resolving [ 'https://registry.npmjs.org/', './core-js/2.5.5' ]
+469 verbose url resolved https://registry.npmjs.org/core-js/2.5.5
+470 info trying registry request attempt 1 at 08:49:21
+471 http GET https://registry.npmjs.org/core-js/2.5.5
+472 verbose url raw js-cookie/2.2.0
+473 verbose url resolving [ 'https://registry.npmjs.org/', './js-cookie/2.2.0' ]
+474 verbose url resolved https://registry.npmjs.org/js-cookie/2.2.0
+475 info trying registry request attempt 1 at 08:49:21
+476 http GET https://registry.npmjs.org/js-cookie/2.2.0
+477 verbose url raw react-autobind/1.0.6
+478 verbose url resolving [ 'https://registry.npmjs.org/', './react-autobind/1.0.6' ]
+479 verbose url resolved https://registry.npmjs.org/react-autobind/1.0.6
+480 info trying registry request attempt 1 at 08:49:21
+481 http GET https://registry.npmjs.org/react-autobind/1.0.6
+482 verbose url raw react-bootstrap-typeahead/3.0.3
+483 verbose url resolving [ 'https://registry.npmjs.org/',
+483 verbose url resolving   './react-bootstrap-typeahead/3.0.3' ]
+484 verbose url resolved https://registry.npmjs.org/react-bootstrap-typeahead/3.0.3
+485 info trying registry request attempt 1 at 08:49:21
+486 http GET https://registry.npmjs.org/react-bootstrap-typeahead/3.0.3
+487 verbose url raw react-dom/16.3.2
+488 verbose url resolving [ 'https://registry.npmjs.org/', './react-dom/16.3.2' ]
+489 verbose url resolved https://registry.npmjs.org/react-dom/16.3.2
+490 info trying registry request attempt 1 at 08:49:21
+491 http GET https://registry.npmjs.org/react-dom/16.3.2
+492 verbose url raw react-router/4.2.0
+493 verbose url resolving [ 'https://registry.npmjs.org/', './react-router/4.2.0' ]
+494 verbose url resolved https://registry.npmjs.org/react-router/4.2.0
+495 info trying registry request attempt 1 at 08:49:21
+496 http GET https://registry.npmjs.org/react-router/4.2.0
+497 verbose url raw react-router-dom/4.2.2
+498 verbose url resolving [ 'https://registry.npmjs.org/', './react-router-dom/4.2.2' ]
+499 verbose url resolved https://registry.npmjs.org/react-router-dom/4.2.2
+500 info trying registry request attempt 1 at 08:49:21
+501 http GET https://registry.npmjs.org/react-router-dom/4.2.2
+502 verbose url raw rxjs/5.4.2
+503 verbose url resolving [ 'https://registry.npmjs.org/', './rxjs/5.4.2' ]
+504 verbose url resolved https://registry.npmjs.org/rxjs/5.4.2
+505 info trying registry request attempt 1 at 08:49:21
+506 http GET https://registry.npmjs.org/rxjs/5.4.2
+507 verbose url raw reactstrap/5.0.0
+508 verbose url resolving [ 'https://registry.npmjs.org/', './reactstrap/5.0.0' ]
+509 verbose url resolved https://registry.npmjs.org/reactstrap/5.0.0
+510 info trying registry request attempt 1 at 08:49:21
+511 http GET https://registry.npmjs.org/reactstrap/5.0.0
+512 verbose url raw validator/9.4.1
+513 verbose url resolving [ 'https://registry.npmjs.org/', './validator/9.4.1' ]
+514 verbose url resolved https://registry.npmjs.org/validator/9.4.1
+515 info trying registry request attempt 1 at 08:49:21
+516 http GET https://registry.npmjs.org/validator/9.4.1
+517 verbose url raw whatwg-fetch/2.0.4
+518 verbose url resolving [ 'https://registry.npmjs.org/', './whatwg-fetch/2.0.4' ]
+519 verbose url resolved https://registry.npmjs.org/whatwg-fetch/2.0.4
+520 info trying registry request attempt 1 at 08:49:21
+521 http GET https://registry.npmjs.org/whatwg-fetch/2.0.4
+522 verbose url raw babel/core/7.0.0-rc2
+523 verbose url resolving [ 'https://registry.npmjs.org/', './babel/core/7.0.0-rc2' ]
+524 verbose url resolved https://registry.npmjs.org/babel/core/7.0.0-rc2
+525 info trying registry request attempt 1 at 08:49:21
+526 http GET https://registry.npmjs.org/babel/core/7.0.0-rc2
+527 verbose url raw babel-loader/8.0.0-beta.6
+528 verbose url resolving [ 'https://registry.npmjs.org/', './babel-loader/8.0.0-beta.6' ]
+529 verbose url resolved https://registry.npmjs.org/babel-loader/8.0.0-beta.6
+530 info trying registry request attempt 1 at 08:49:21
+531 http GET https://registry.npmjs.org/babel-loader/8.0.0-beta.6
+532 verbose url raw babel/preset-env/7.0.0-rc.2
+533 verbose url resolving [ 'https://registry.npmjs.org/',
+533 verbose url resolving   './babel/preset-env/7.0.0-rc.2' ]
+534 verbose url resolved https://registry.npmjs.org/babel/preset-env/7.0.0-rc.2
+535 info trying registry request attempt 1 at 08:49:21
+536 http GET https://registry.npmjs.org/babel/preset-env/7.0.0-rc.2
+537 verbose url raw babel/register/7.0.0-rc2
+538 verbose url resolving [ 'https://registry.npmjs.org/', './babel/register/7.0.0-rc2' ]
+539 verbose url resolved https://registry.npmjs.org/babel/register/7.0.0-rc2
+540 info trying registry request attempt 1 at 08:49:21
+541 http GET https://registry.npmjs.org/babel/register/7.0.0-rc2
+542 verbose url raw css-loader/0.28.1
+543 verbose url resolving [ 'https://registry.npmjs.org/', './css-loader/0.28.1' ]
+544 verbose url resolved https://registry.npmjs.org/css-loader/0.28.1
+545 info trying registry request attempt 1 at 08:49:21
+546 http GET https://registry.npmjs.org/css-loader/0.28.1
+547 verbose url raw copy-webpack-plugin/4.5.1
+548 verbose url resolving [ 'https://registry.npmjs.org/', './copy-webpack-plugin/4.5.1' ]
+549 verbose url resolved https://registry.npmjs.org/copy-webpack-plugin/4.5.1
+550 info trying registry request attempt 1 at 08:49:21
+551 http GET https://registry.npmjs.org/copy-webpack-plugin/4.5.1
+552 verbose url raw eslint/4.19.1
+553 verbose url resolving [ 'https://registry.npmjs.org/', './eslint/4.19.1' ]
+554 verbose url resolved https://registry.npmjs.org/eslint/4.19.1
+555 info trying registry request attempt 1 at 08:49:21
+556 http GET https://registry.npmjs.org/eslint/4.19.1
+557 verbose url raw eslint-config-standard/11.0.0
+558 verbose url resolving [ 'https://registry.npmjs.org/',
+558 verbose url resolving   './eslint-config-standard/11.0.0' ]
+559 verbose url resolved https://registry.npmjs.org/eslint-config-standard/11.0.0
+560 info trying registry request attempt 1 at 08:49:21
+561 http GET https://registry.npmjs.org/eslint-config-standard/11.0.0
+562 verbose url raw eslint-loader/2.0.0
+563 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-loader/2.0.0' ]
+564 verbose url resolved https://registry.npmjs.org/eslint-loader/2.0.0
+565 info trying registry request attempt 1 at 08:49:21
+566 http GET https://registry.npmjs.org/eslint-loader/2.0.0
+567 verbose url raw eslint-config-standard-jsx/5.0.0
+568 verbose url resolving [ 'https://registry.npmjs.org/',
+568 verbose url resolving   './eslint-config-standard-jsx/5.0.0' ]
+569 verbose url resolved https://registry.npmjs.org/eslint-config-standard-jsx/5.0.0
+570 info trying registry request attempt 1 at 08:49:21
+571 http GET https://registry.npmjs.org/eslint-config-standard-jsx/5.0.0
+572 verbose url raw eslint-plugin-import/2.11.0
+573 verbose url resolving [ 'https://registry.npmjs.org/',
+573 verbose url resolving   './eslint-plugin-import/2.11.0' ]
+574 verbose url resolved https://registry.npmjs.org/eslint-plugin-import/2.11.0
+575 info trying registry request attempt 1 at 08:49:21
+576 http GET https://registry.npmjs.org/eslint-plugin-import/2.11.0
+577 verbose url raw eslint-plugin-react/7.7.0
+578 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-react/7.7.0' ]
+579 verbose url resolved https://registry.npmjs.org/eslint-plugin-react/7.7.0
+580 info trying registry request attempt 1 at 08:49:21
+581 http GET https://registry.npmjs.org/eslint-plugin-react/7.7.0
+582 verbose url raw eslint-plugin-promise/3.7.0
+583 verbose url resolving [ 'https://registry.npmjs.org/',
+583 verbose url resolving   './eslint-plugin-promise/3.7.0' ]
+584 verbose url resolved https://registry.npmjs.org/eslint-plugin-promise/3.7.0
+585 info trying registry request attempt 1 at 08:49:21
+586 http GET https://registry.npmjs.org/eslint-plugin-promise/3.7.0
+587 verbose url raw file-loader/1.1.11
+588 verbose url resolving [ 'https://registry.npmjs.org/', './file-loader/1.1.11' ]
+589 verbose url resolved https://registry.npmjs.org/file-loader/1.1.11
+590 info trying registry request attempt 1 at 08:49:21
+591 http GET https://registry.npmjs.org/file-loader/1.1.11
+592 verbose url raw html-loader/0.5.5
+593 verbose url resolving [ 'https://registry.npmjs.org/', './html-loader/0.5.5' ]
+594 verbose url resolved https://registry.npmjs.org/html-loader/0.5.5
+595 info trying registry request attempt 1 at 08:49:21
+596 http GET https://registry.npmjs.org/html-loader/0.5.5
+597 verbose url raw htmlhint-loader/1.3.1
+598 verbose url resolving [ 'https://registry.npmjs.org/', './htmlhint-loader/1.3.1' ]
+599 verbose url resolved https://registry.npmjs.org/htmlhint-loader/1.3.1
+600 info trying registry request attempt 1 at 08:49:21
+601 http GET https://registry.npmjs.org/htmlhint-loader/1.3.1
+602 verbose url raw mini-css-extract-plugin/0.4.0
+603 verbose url resolving [ 'https://registry.npmjs.org/',
+603 verbose url resolving   './mini-css-extract-plugin/0.4.0' ]
+604 verbose url resolved https://registry.npmjs.org/mini-css-extract-plugin/0.4.0
+605 info trying registry request attempt 1 at 08:49:21
+606 http GET https://registry.npmjs.org/mini-css-extract-plugin/0.4.0
+607 verbose url raw node-sass/4.8.3
+608 verbose url resolving [ 'https://registry.npmjs.org/', './node-sass/4.8.3' ]
+609 verbose url resolved https://registry.npmjs.org/node-sass/4.8.3
+610 info trying registry request attempt 1 at 08:49:21
+611 http GET https://registry.npmjs.org/node-sass/4.8.3
+612 verbose url raw optimize-css-assets-webpack-plugin/4.0.0
+613 verbose url resolving [ 'https://registry.npmjs.org/',
+613 verbose url resolving   './optimize-css-assets-webpack-plugin/4.0.0' ]
+614 verbose url resolved https://registry.npmjs.org/optimize-css-assets-webpack-plugin/4.0.0
+615 info trying registry request attempt 1 at 08:49:21
+616 http GET https://registry.npmjs.org/optimize-css-assets-webpack-plugin/4.0.0
+617 verbose url raw raw-loader/0.5.1
+618 verbose url resolving [ 'https://registry.npmjs.org/', './raw-loader/0.5.1' ]
+619 verbose url resolved https://registry.npmjs.org/raw-loader/0.5.1
+620 info trying registry request attempt 1 at 08:49:21
+621 http GET https://registry.npmjs.org/raw-loader/0.5.1
+622 verbose url raw eslint-plugin-standard/3.0.1
+623 verbose url resolving [ 'https://registry.npmjs.org/',
+623 verbose url resolving   './eslint-plugin-standard/3.0.1' ]
+624 verbose url resolved https://registry.npmjs.org/eslint-plugin-standard/3.0.1
+625 info trying registry request attempt 1 at 08:49:21
+626 http GET https://registry.npmjs.org/eslint-plugin-standard/3.0.1
+627 verbose url raw react-hot-loader/4.1.1
+628 verbose url resolving [ 'https://registry.npmjs.org/', './react-hot-loader/4.1.1' ]
+629 verbose url resolved https://registry.npmjs.org/react-hot-loader/4.1.1
+630 info trying registry request attempt 1 at 08:49:21
+631 http GET https://registry.npmjs.org/react-hot-loader/4.1.1
+632 verbose url raw eslint-plugin-node/6.0.1
+633 verbose url resolving [ 'https://registry.npmjs.org/', './eslint-plugin-node/6.0.1' ]
+634 verbose url resolved https://registry.npmjs.org/eslint-plugin-node/6.0.1
+635 info trying registry request attempt 1 at 08:49:21
+636 http GET https://registry.npmjs.org/eslint-plugin-node/6.0.1
+637 verbose url raw rimraf/2.6.2
+638 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf/2.6.2' ]
+639 verbose url resolved https://registry.npmjs.org/rimraf/2.6.2
+640 info trying registry request attempt 1 at 08:49:21
+641 http GET https://registry.npmjs.org/rimraf/2.6.2
+642 verbose url raw html-webpack-plugin/3.2.0
+643 verbose url resolving [ 'https://registry.npmjs.org/', './html-webpack-plugin/3.2.0' ]
+644 verbose url resolved https://registry.npmjs.org/html-webpack-plugin/3.2.0
+645 info trying registry request attempt 1 at 08:49:21
+646 http GET https://registry.npmjs.org/html-webpack-plugin/3.2.0
+647 verbose url raw webpack-cli/2.0.14
+648 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-cli/2.0.14' ]
+649 verbose url resolved https://registry.npmjs.org/webpack-cli/2.0.14
+650 info trying registry request attempt 1 at 08:49:21
+651 http GET https://registry.npmjs.org/webpack-cli/2.0.14
+652 verbose url raw uglifyjs-webpack-plugin/1.2.5
+653 verbose url resolving [ 'https://registry.npmjs.org/',
+653 verbose url resolving   './uglifyjs-webpack-plugin/1.2.5' ]
+654 verbose url resolved https://registry.npmjs.org/uglifyjs-webpack-plugin/1.2.5
+655 info trying registry request attempt 1 at 08:49:21
+656 http GET https://registry.npmjs.org/uglifyjs-webpack-plugin/1.2.5
+657 verbose url raw webpack/4.6.0
+658 verbose url resolving [ 'https://registry.npmjs.org/', './webpack/4.6.0' ]
+659 verbose url resolved https://registry.npmjs.org/webpack/4.6.0
+660 info trying registry request attempt 1 at 08:49:21
+661 http GET https://registry.npmjs.org/webpack/4.6.0
+662 verbose url raw sass-loader/7.0.1
+663 verbose url resolving [ 'https://registry.npmjs.org/', './sass-loader/7.0.1' ]
+664 verbose url resolved https://registry.npmjs.org/sass-loader/7.0.1
+665 info trying registry request attempt 1 at 08:49:22
+666 http GET https://registry.npmjs.org/sass-loader/7.0.1
+667 verbose url raw webpack-merge/4.1.2
+668 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-merge/4.1.2' ]
+669 verbose url resolved https://registry.npmjs.org/webpack-merge/4.1.2
+670 info trying registry request attempt 1 at 08:49:22
+671 http GET https://registry.npmjs.org/webpack-merge/4.1.2
+672 verbose url raw webpack-dev-server/3.1.3
+673 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-dev-server/3.1.3' ]
+674 verbose url resolved https://registry.npmjs.org/webpack-dev-server/3.1.3
+675 info trying registry request attempt 1 at 08:49:22
+676 http GET https://registry.npmjs.org/webpack-dev-server/3.1.3
+677 verbose url raw style-loader/0.21.0
+678 verbose url resolving [ 'https://registry.npmjs.org/', './style-loader/0.21.0' ]
+679 verbose url resolved https://registry.npmjs.org/style-loader/0.21.0
+680 info trying registry request attempt 1 at 08:49:22
+681 http GET https://registry.npmjs.org/style-loader/0.21.0
+682 verbose url raw awm-moneta/moneta-bootstrap/4.1.0
+683 verbose url resolving [ 'https://registry.npmjs.org/',
+683 verbose url resolving   './awm-moneta/moneta-bootstrap/4.1.0' ]
+684 verbose url resolved https://registry.npmjs.org/awm-moneta/moneta-bootstrap/4.1.0
+685 info trying registry request attempt 1 at 08:49:22
+686 http GET https://registry.npmjs.org/awm-moneta/moneta-bootstrap/4.1.0
+687 verbose url raw classnames/2.2.5
+688 verbose url resolving [ 'https://registry.npmjs.org/', './classnames/2.2.5' ]
+689 verbose url resolved https://registry.npmjs.org/classnames/2.2.5
+690 info trying registry request attempt 1 at 08:49:22
+691 http GET https://registry.npmjs.org/classnames/2.2.5
+692 http 404 https://registry.npmjs.org/babel/preset-react/7.0.0-beta.3
+693 silly registry.get cb [ 404,
+693 silly registry.get   { date: 'Fri, 24 Aug 2018 07:48:42 GMT',
+693 silly registry.get     'content-type': 'application/json',
+693 silly registry.get     'content-length': '11',
+693 silly registry.get     connection: 'keep-alive',
+693 silly registry.get     'set-cookie': [ '__cfduid=d7d64768178211748a881d51411ebc2971535096921; expires=Sat, 24-Aug-19 07:48:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+693 silly registry.get     'cf-ray': '44f437d11be1359c-LHR',
+693 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+693 silly registry.get     server: 'cloudflare' } ]
+694 http 200 https://registry.npmjs.org/react/16.3.2
+695 silly registry.get cb [ 200,
+695 silly registry.get   { date: 'Fri, 24 Aug 2018 07:48:42 GMT',
+695 silly registry.get     'content-type': 'application/json',
+695 silly registry.get     'transfer-encoding': 'chunked',
+695 silly registry.get     connection: 'keep-alive',
+695 silly registry.get     'set-cookie': [ '__cfduid=db5596c9e9f409fba739f3487947eeb871535096921; expires=Sat, 24-Aug-19 07:48:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+695 silly registry.get     'cf-ray': '44f437d11a0b35f6-LHR',
+695 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+695 silly registry.get     server: 'cloudflare' } ]
+696 http 200 https://registry.npmjs.org/js-cookie/2.2.0
+697 silly registry.get cb [ 200,
+697 silly registry.get   { date: 'Fri, 24 Aug 2018 07:48:42 GMT',
+697 silly registry.get     'content-type': 'application/json',
+697 silly registry.get     'transfer-encoding': 'chunked',
+697 silly registry.get     connection: 'keep-alive',
+697 silly registry.get     'set-cookie': [ '__cfduid=d42ffd5006e17f86a943b6b7455c1eeaa1535096921; expires=Sat, 24-Aug-19 07:48:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+697 silly registry.get     'cf-ray': '44f437d11f61348e-LHR',
+697 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+697 silly registry.get     server: 'cloudflare' } ]
+698 silly lockFile d46c75ab-babel-preset-react-7-0-0-beta-3 babel/preset-react@7.0.0-beta.3
+699 silly lockFile d46c75ab-babel-preset-react-7-0-0-beta-3 babel/preset-react@7.0.0-beta.3
+700 silly lockFile 9539f144-npmjs-org-react-react-16-3-2-tgz https://registry.npmjs.org/react/-/react-16.3.2.tgz
+701 verbose lock https://registry.npmjs.org/react/-/react-16.3.2.tgz /Users/pkuzan/.npm/9539f144-npmjs-org-react-react-16-3-2-tgz.lock
+702 error Error: No dist in undefined package
+702 error     at next (/usr/local/lib/node_modules/npm/lib/cache.js:753:26)
+702 error     at /usr/local/lib/node_modules/npm/lib/cache.js:746:5
+702 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+702 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:133:7
+702 error     at Object.oncomplete (fs.js:107:15)
+703 error If you need help, you may report this *entire* log,
+703 error including the npm and node versions, at:
+703 error     <http://github.com/isaacs/npm/issues>
+704 error System Darwin 15.6.0
+705 error command "node" "/usr/local/bin/npm" "install"
+706 error cwd /Users/pkuzan/dev/sandbox/gt-cloud/funds-manager/funds-manager-angular-web
+707 error node -v v0.10.25
+708 error npm -v 1.3.24
+709 verbose exit [ 1, true ]
