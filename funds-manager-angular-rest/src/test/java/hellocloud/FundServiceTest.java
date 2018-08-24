@@ -23,11 +23,22 @@ import java.util.List;
 @SpringBootTest(classes = FundServiceTestConfig.class)
 @DataJpaTest
 public class FundServiceTest {
+    public static final String ASSET_CLASS_ID = "SPEC";
+
     @Autowired
     FundService fundService;
 
     @Autowired
     AssetClassCrudRepository assetClassRepository;
+
+    @Test
+    public void bulkUpload() {
+        List<Fund> funds = fundService.getFunds();
+        List<AssetClass> assetClasses = new ArrayList<>();
+        assetClassRepository.findAll().forEach(assetClass -> assetClasses.add(assetClass));
+        Assert.assertEquals(5, funds.size());
+        Assert.assertEquals(6, assetClasses.size());
+    }
 
     @Test
     public void getHoldingCompanies() {
@@ -55,7 +66,7 @@ public class FundServiceTest {
         fundService.createFund(fund2);
 
         List<Fund> funds = fundService.getFunds();
-        Assert.assertEquals(2, funds.size());
+        Assert.assertEquals(7, funds.size());
     }
 
     @Test
@@ -68,7 +79,7 @@ public class FundServiceTest {
 
         List<AssetClass> assetClasses = new ArrayList<>();
         assetClassRepository.findAll().forEach(assetClasses::add);
-        Assert.assertEquals(1, assetClasses.size());
+        Assert.assertEquals(6, assetClasses.size());
 
         fundService.createFund(fund);
     }
@@ -118,6 +129,9 @@ public class FundServiceTest {
     }
 
     private Fund createFundFixture() {
+        AssetClass specAssetClass = assetClassRepository.findOne(ASSET_CLASS_ID);
+        Assert.assertNotNull(specAssetClass);
+
         Fund fund = new Fund();
         fund.setSymbol("fund_1");
         fund.setActive(true);
@@ -128,7 +142,7 @@ public class FundServiceTest {
         fund.setHeadline("Headline");
         fund.setExpenseRatio(new BigDecimal(30));
         fund.setInceptionDate(LocalDateTime.now());
-        fund.setAssetClass(new AssetClass("asset_symbol", "asset_name"));
+        fund.setAssetClass(specAssetClass);
         List<Holding> holdings = new ArrayList<>();
         holdings.add(new Holding("holding symbol", "holding_name", new BigDecimal(50)));
         holdings.add(new Holding("holding symbol_1", "holding_name_1", new BigDecimal(60)));

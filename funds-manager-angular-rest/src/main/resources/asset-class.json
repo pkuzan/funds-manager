@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "USEQ",
+    "name": "US Equity"
+  },
+  {
+    "symbol": "TXFI",
+    "name": "Taxable Fixed Income"
+  },
+  {
+    "symbol": "TEFI",
+    "name": "Tax Exempt Fixed Income"
+  },
+  {
+    "symbol": "IGE",
+    "name": "International and Global Equity"
+  },
+  {
+    "symbol": "AA",
+    "name": "Asset Allocation"
+  },
+  {
+    "symbol": "SPEC",
+    "name": "Specialty"
+  }
+]

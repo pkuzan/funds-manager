@@ -1,0 +1,137 @@
+[
+  {
+    "symbol": "DGAAX",
+    "name": "Dynamic Growth Fund",
+    "headline": "Sharper focus on growth potential",
+    "description": "The Dynamic Growth Fund explores the market to develop a concentrated, high-conviction portfolio of large-capitalization stocks with high-growth potential.",
+    "expenseRatio": 1.19,
+    "manager": "Job Bloggs",
+    "assetClass": {
+      "symbol": "TEFI",
+      "name": "Tax Exempt Fixed Income"
+    },
+    "inceptionDate": "2007-10-30T02:06:58.147Z",
+    "dividendsFrequency": "Annually",
+    "active": "true",
+    "holdings": [
+      {
+        "symbol": "WFC",
+        "percentage": 100
+      }
+    ]
+  },
+  {
+    "symbol": "OIEIX",
+    "name": "Equity Income Fund",
+    "headline": "An income approach to equities pay dividends.",
+    "description": "The Equity Income Fund focuses on high-quality companies with healthy and sustainable dividend yields, providing a conservative way to participate in U.S. equity markets.",
+    "expenseRatio": 1.04,
+    "manager": "John Smith",
+    "assetClass": {
+      "symbol": "USEQ",
+      "name": "US Equity"
+    },
+    "inceptionDate": "1992-01-18T02:06:58.147Z",
+    "dividendsFrequency": "Monthly",
+    "active": "false",
+    "holdings": [
+      {
+        "symbol": "XOM",
+        "percentage": 50
+      },
+      {
+        "symbol": "MRK",
+        "percentage": 50
+      }
+    ]
+  },
+  {
+    "symbol": "VHIAX",
+    "name": "Growth Advantage Fund",
+    "headline": "Growth Advantage Fund",
+    "description": "The Fund seeks to provide capital growth over the long-term and earn income from dividends.",
+    "expenseRatio": 1.25,
+    "manager": "Fred Flintstone",
+    "assetClass": {
+      "symbol": "USEQ",
+      "name": "US Equity"
+    },
+    "inceptionDate": "1999-09-29T02:06:58.147Z",
+    "dividendsFrequency": "Anually",
+    "active": "true",
+    "holdings": [
+      {
+        "symbol": "MRK",
+        "percentage": 20
+      },
+      {
+        "symbol": "JNJ",
+        "percentage": 60
+      },
+      {
+        "symbol": "BLK",
+        "percentage": 20
+      },
+      {
+        "symbol": "WFC",
+        "percentage": 40
+      }
+    ]
+  },
+  {
+    "symbol": "VGRIX",
+    "name": "Growth and Income Fund",
+    "headline": "Growth and Income Fund",
+    "description": "The Dynamic Growth Fund explores the market to develop a concentrated, high-conviction portfolio of large-capitalization stocks with high-growth potential.",
+    "expenseRatio": 1.04,
+    "manager": "Betty Boop",
+    "assetClass": {
+      "symbol": "USEQ",
+      "name": "US Equity"
+    },
+    "inceptionDate": "1987-08-23T02:06:58.147Z",
+    "dividendsFrequency": "Quarterly",
+    "active": "true",
+    "holdings": [
+      {
+        "symbol": "MRK",
+        "percentage": 60
+      },
+      {
+        "symbol": "WFC",
+        "percentage": 40
+      }
+    ]
+  },
+  {
+    "symbol": "JIGAX",
+    "name": "Intrepid Growth Fund",
+    "headline": "Capitalize on market inefficiencies.",
+    "description": "With an eye towards capturing growth opportunities that are often caused by irrational investing, the Intrepid Growth Fund combines quantitative analytics with fundamental research based on behavioral underpinnings to deliver consistent long-term results.",
+    "expenseRatio": 0.93,
+    "manager": "Donald Duck",
+    "assetClass": {
+      "symbol": "USEQ",
+      "name": "US Equity"
+    },
+    "inceptionDate": "2005-01-19T02:06:58.147Z",
+    "dividendsFrequency": "Annually",
+    "active": "false",
+    "holdings": [
+      {
+        "symbol": "MRK",
+        "percentage": 20
+      },
+      {
+        "symbol": "WFC",
+        "percentage": 50
+      },
+      {
+        "symbol": "JNJ",
+        "percentage": 30
+      }
+    ]
+  }
+]
+
+
