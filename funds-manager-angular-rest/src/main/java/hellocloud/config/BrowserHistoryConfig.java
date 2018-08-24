@@ -5,6 +5,7 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.resource.ResourceResolver;
 import org.springframework.web.servlet.resource.ResourceResolverChain;
@@ -16,10 +17,20 @@ import java.util.List;
 
 @Configuration
 public class BrowserHistoryConfig extends WebMvcConfigurerAdapter {
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addRedirectViewController("/docApi/v2/api-docs", "/v2/api-docs");
+        registry.addRedirectViewController("/docApi/swagger-resources/configuration/ui", "/swagger-resources/configuration/ui");
+        registry.addRedirectViewController("/docApi/swagger-resources/configuration/security", "/swagger-resources/configuration/security");
+        registry.addRedirectViewController("/docApi/swagger-resources", "/swagger-resources");
+    }
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/**").addResourceLocations("classpath:/static").setCachePeriod(3600).resourceChain(true).addResolver(new WebResourceResolver());
-
+        registry.addResourceHandler("/docApi/swagger-ui.html**").addResourceLocations("classpath:/META-INF/resources/swagger-ui.html");
+        registry.addResourceHandler("/docApi/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
         super.addResourceHandlers(registry);
     }
 

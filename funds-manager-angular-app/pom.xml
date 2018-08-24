@@ -21,10 +21,28 @@
             <groupId>hellocloud</groupId>
             <artifactId>funds-manager-angular-web</artifactId>
         </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox-swagger-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${springfox-swagger-version}</version>
+        </dependency>
     </dependencies>
 
     <build>
         <finalName>${project.artifactId}</finalName>
-
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>hellocloud.FundsManagerApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 </project>

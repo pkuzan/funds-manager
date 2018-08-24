@@ -1,0 +1,21 @@
+version: 0.0
+os: linux
+files:
+  - source: /lib
+    destination: /opt/funds-manager
+hooks:
+  BeforeInstall:
+    - location: scripts/deregister_from_elb.sh
+      timeout: 400
+    - location: scripts/stop_server.sh
+      timeout: 120
+      runas: root
+    - location: scripts/clean_up_previous_release.sh
+      timeout: 120
+      runas: root
+  ApplicationStart:
+    - location: scripts/start_server.sh
+      timeout: 120
+      runas: root
+    - location: scripts/register_with_elb.sh
+      timeout: 120
