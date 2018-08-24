@@ -7,10 +7,11 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import hellocloud.model.Fund;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 @Configuration
@@ -20,11 +21,11 @@ public class FundLoader {
 
     @PostConstruct
     public void init() throws IOException {
-        InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("fund.json");
+        Resource resource = new ClassPathResource("fund.json");
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.registerModule(new JavaTimeModule());
         objectMapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
-        List<Fund> funds = objectMapper.readValue(is, new TypeReference<List<Fund>>() {
+        List<Fund> funds = objectMapper.readValue(resource.getInputStream(), new TypeReference<List<Fund>>() {
         });
 
         funds.forEach(fund -> fundCrudRepository.save(fund));

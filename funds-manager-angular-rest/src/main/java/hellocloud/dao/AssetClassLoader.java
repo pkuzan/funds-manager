@@ -5,10 +5,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import hellocloud.model.AssetClass;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
 @Configuration
@@ -18,9 +19,9 @@ public class AssetClassLoader {
 
     @PostConstruct
     public void init() throws IOException {
-        InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("asset-class.json");
+        Resource resource = new ClassPathResource("asset-class.json");
         ObjectMapper objectMapper = new ObjectMapper();
-        List<AssetClass> classes = objectMapper.readValue(is, new TypeReference<List<AssetClass>>() {
+        List<AssetClass> classes = objectMapper.readValue(resource.getInputStream(), new TypeReference<List<AssetClass>>() {
         });
 
         for (AssetClass assetClass : classes) {

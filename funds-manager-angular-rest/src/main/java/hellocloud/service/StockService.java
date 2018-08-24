@@ -4,11 +4,12 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import hellocloud.model.HoldingCompany;
 import hellocloud.model.StockQuote;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.*;
 
 @Service
@@ -18,9 +19,9 @@ public class StockService {
 
     @PostConstruct
     public void init() throws IOException {
-        InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream("sp500.json");
+        Resource resource = new ClassPathResource("sp500.json");
         ObjectMapper objectMapper = new ObjectMapper();
-        List<StockQuote> quotes = objectMapper.readValue(is, new TypeReference<List<StockQuote>>() {
+        List<StockQuote> quotes = objectMapper.readValue(resource.getInputStream(), new TypeReference<List<StockQuote>>() {
         });
 
         for (StockQuote quote : quotes) {
