@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Embeddable
 public class Holding {
-    @Column
+    @Column(name = "holding_symbol")
     private String symbol;
     @Column
     private String name;
