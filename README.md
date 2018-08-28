@@ -1,6 +1,6 @@
 # Funds Manager
 
-###Run Locally
+### Run Locally
 To run the application locally, set a Spring Profile = local.
 
 ```
@@ -21,7 +21,7 @@ As a self-signed cert has been used, the warning will have to be ignored.
 https://localhost:8443/docApi/swagger-ui.html
 ```
 
-###Run on AWS
+### Run on AWS
 Perform a mvn install on the root project this will build modules.
 
 The Maven assembly plugin will construct a CodeDeploy zip file in the target dir of
