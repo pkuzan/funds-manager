@@ -29,3 +29,4 @@ the app module named funds-manager-angular-app.zip. This zip file contains start
 
 Deploy the zip file by copying to an S3 bucket and invloking CodeDeploy from the AWS Console.
 
+Remember to uncomment the file appender in logback.xml.
