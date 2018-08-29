@@ -1,8 +1,8 @@
-/target/
+**/target/
 /.settings/
 /.classpath
 /.project
 /.idea
 /*.iml
 /funds-manager-angular-web/npm-debug.log
-/.node_modules
+/.node_modules/
