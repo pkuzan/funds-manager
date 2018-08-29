@@ -5,3 +5,4 @@
 /.idea
 /*.iml
 /funds-manager-angular-web/npm-debug.log
+/.node_modules
