@@ -8,23 +8,11 @@
     <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
         <fileSet>
-            <directory>${project.build.directory}</directory>
+            <directory>${project.build.directory}/code-deploy</directory>
             <includes>
-                <include>${project.artifactId}.jar</include>
-            </includes>
-            <outputDirectory>lib</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${basedir}/src/main/code-deploy/scripts</directory>
-            <includes>
-                <include>*.sh</include>
-            </includes>
-            <outputDirectory>scripts</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${basedir}/src/main/code-deploy/appspec</directory>
-            <includes>
-                <include>appspec.yml</include>
+                <include>*.*</include>
+                <include>/lib/*.*</include>
+                <include>/scripts/*.*</include>
             </includes>
             <outputDirectory>.</outputDirectory>
         </fileSet>
