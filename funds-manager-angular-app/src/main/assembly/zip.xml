@@ -15,14 +15,14 @@
             <outputDirectory>lib</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>${basedir}/src/main/code-deploy-scripts</directory>
+            <directory>${basedir}/src/main/code-deploy/scripts</directory>
             <includes>
                 <include>*.sh</include>
             </includes>
             <outputDirectory>scripts</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>${basedir}/src/main/appspec</directory>
+            <directory>${basedir}/src/main/code-deploy/appspec</directory>
             <includes>
                 <include>appspec.yml</include>
             </includes>
