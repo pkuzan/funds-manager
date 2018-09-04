@@ -1,10 +1,10 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
 import 'whatwg-fetch';
-import {BrowserRouter} from 'react-router=dom';
+import {BrowserRouter} from 'react-router-dom';
 import {AppplicationContainer} from 'react-hot-loader';
 import App from './components/App';
-import 'styles/app.css'
+import 'styles/app.css';
 
 const render = (Component) => {
     ReactDOM.render(
@@ -12,7 +12,7 @@ const render = (Component) => {
             <BrowserRouter>
                 <Component />
             </BrowserRouter>
-        </AppContainer>
+        </AppContainer>,
         document.getElementById('app')
     );
 };
