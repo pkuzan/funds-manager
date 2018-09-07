@@ -18,7 +18,7 @@ public class FundResource {
     FundService fundService;
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    public void createFun(@RequestBody Fund fund) {
+    public void createFund(@RequestBody Fund fund) {
         this.fundService.createFund(fund);
     }
 
